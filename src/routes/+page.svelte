@@ -87,42 +87,42 @@
       </div>
 
       <ul class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-9 justify-center flex-wrap">
-        <li class="p-4 flex flex-col items-center bg-secondary w-auto">
+        <li class="p-4 flex flex-col items-center">
           <img src="/nfts/2.png" class="w-80 h-auto" alt="nftImage">
           <h3 class="text-4xl mt-4">Punk #2</h3>
         </li>
 
-        <li class="p-4 flex flex-col items-center bg-secondary w-auto">
+        <li class="p-4 flex flex-col items-center">
           <img src="/nfts/30.png" class="w-80 h-auto" alt="nftImage">
           <h3 class="text-4xl mt-4">Punk #30</h3>
         </li>
 
-        <li class="p-4 flex flex-col items-center bg-secondary w-auto">
+        <li class="p-4 flex flex-col items-center">
           <img src="/nfts/32.png" class="w-80 h-auto" alt="nftImage">
           <h3 class="text-4xl mt-4">Punk #32</h3>
         </li>
 
-        <li class="p-4 flex flex-col items-center bg-secondary w-auto">
+        <li class="p-4 flex flex-col items-center">
           <img src="/nfts/83.png" class="w-80 h-auto" alt="nftImage">
           <h3 class="text-4xl mt-4">Punk #83</h3>
         </li>
 
-        <li class="p-4 flex flex-col items-center bg-secondary w-auto">
+        <li class="p-4 flex flex-col items-center">
           <img src="/nfts/36.png" class="w-80 h-auto" alt="nftImage">
           <h3 class="text-4xl mt-4">Punk #36</h3>
         </li>
 
-        <li class="p-4 flex flex-col items-center bg-secondary w-auto">
+        <li class="p-4 flex flex-col items-center">
           <img src="/nfts/17.png" class="w-80 h-auto" alt="nftImage">
           <h3 class="text-4xl mt-4">Punk #17</h3>
         </li>
 
-        <li class="p-4 flex flex-col items-center bg-secondary w-auto">
+        <li class="p-4 flex flex-col items-center">
           <img src="/nfts/38.png" class="w-80 h-auto" alt="nftImage">
           <h3 class="text-4xl mt-4">Punk #38</h3>
         </li>
 
-        <li class="p-4 flex flex-col items-center bg-secondary w-auto">
+        <li class="p-4 flex flex-col items-center">
           <img src="/nfts/18.png" class="w-80 h-auto" alt="nftImage">
           <h3 class="text-4xl mt-4">Punk #18</h3>
         </li>

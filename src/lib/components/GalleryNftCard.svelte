@@ -6,7 +6,7 @@
 <main>
   <a href={nftLink}>
     <li class="">
-      <div class="p-4 flex items-center flex-col gap-3 bg-[#5D5068]">
+      <div class="p-4 flex items-center flex-col gap-3 ">
         <img src={"/nfts/" + nftId + ".png"} alt="Nft" class="w-72 h-auto">
         <div class="flex flex-col gap-1">
           <h5 class="text-4xl">Satoshi Punk #{nftId}</h5>
