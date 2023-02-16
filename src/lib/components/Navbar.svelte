@@ -1,5 +1,7 @@
 <script>
   import LogoWhite from '../assets/imgs/logoWhite.png'
+
+  export let route;
 </script>
 
 <main>
@@ -14,13 +16,13 @@
 
     <ul class="hidden md:flex text-4xl items-center relative z-20 text-white gap-8">
       <li>
-        <a href="#Manifesto">Manifesto</a>
+        <a href={route == "home" ? "#Manifesto" : "/#Manifesto"}>Manifesto</a>
       </li>
       <li>
         <a href="/gallery">Gallery</a>
       </li>
       <li>
-        <a href="#Gang">Gang</a>
+        <a href={route == "home" ? "#Gang" : "/#Gang"}>Gang</a>
       </li>
       <li>
         <a href="https://discord.gg/satoshipunks">Buy a Punk</a>

@@ -13,10 +13,11 @@
   import Nft4 from '$lib/assets/imgs/nft4.png'
 
   let filterInput = "";
+
 </script>
 
 <main>
-  <Navbar />
+  <Navbar route="gallery" />
   <div class="relative h-[40vh]">
     <img src={"/banner.png"} class="absolute top-0 left-0 z-0 w-full h-full object-cover" alt="coverImage" />
   </div>

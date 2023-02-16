@@ -26,7 +26,7 @@
 </script>
 
 <main>
-  <Navbar />
+  <Navbar route="home" />
   <div class="relative flex items-center justify-center h-[110vh]">
     <img src={CoverImage} class="absolute top-0 left-0 z-0 w-full h-full object-right md:object-center object-cover" alt="coverImage" />
     <div class="z-10 relative flex flex-col items-center">

@@ -7,7 +7,7 @@
 </script>
 
 <main>
-  <Navbar />
+  <Navbar route="error" />
   <div class="punk-container px-12 md:px-40">
     <img src={BackgroundImage} class="absolute top-0 left-0 w-full h-full z-0" alt="bg">
 
