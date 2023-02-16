@@ -51,7 +51,7 @@ table {
     src: url('./lib/assets/fonts//pixelade.ttf');
 }
 
-html {
+html,pre {
   font-family: Pixelade;
 }
 

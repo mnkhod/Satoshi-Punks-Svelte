@@ -41,34 +41,29 @@
     <div class="punk-inner-container">
       <h1 class="text-5xl md:text-6xl">Manifesto</h1>
       <p class="text-4xl"></p>
-      <div class="flex flex-col md:flex-row justify-between">
+      <div class="flex flex-col items-center xl:flex-row justify-between">
         <div class="md:w-5/12">
           <img src={FeatureNft} class="h-full w-full" alt="">
         </div>
-        <div class="md:w-6/12 flex items-center">
-          <ul class="flex flex-col gap-16">
-            <li class="flex flex-col items-center md:items-start md:flex-row gap-4 p-12 md:p-0">
-              <img src={FeatureHappyIcon} class="h-14 w-14 md:w-auto" alt="featureHappyIcon">
-              <div class="mt-2">
-                <h2 class="text-5xl md:text-4xl">Why Punks?</h2>
-                <p class="text-2xl">Punks were taken, already. By 5+ projects. We are Satoshi Punks. Not just another derivative.</p>
-              </div>
-            </li>
-            <li class="flex flex-col items-center md:items-start md:flex-row gap-4 p-12 md:p-0">
-              <img src={FeatureTimeIcon} class="h-14 w-14 md:w-auto" alt="featureHappyIcon">
-              <div class="mt-2">
-                <h2 class="text-5xl md:text-4xl">Degens be degens.</h2>
-                <p class="text-2xl">Trust us. We’re the unprofessionals, here. Let’s mint random NFTs, overleverage, and get high on web3 wins, “TOGETHER”.</p>
-              </div>
-            </li>
-            <li class="flex flex-col items-center md:items-start md:flex-row gap-4 p-12 md:p-0">
-              <img src={FeatureDiamondIcon} class="h-14 w-14 md:w-auto" alt="featureHappyIcon">
-              <div class="mt-2">
-                <h2 class="text-5xl md:text-4xl">Join the movement.</h2>
-                <p class="text-2xl">We need “YOU”, your frens, and their high school crushes to join us.</p>
-              </div>
-            </li>
-          </ul>
+        <div class="md:w-7/12 flex items-center">
+          <pre class="text-lg whitespace-pre-line text-center xl:text-left mt-5 xl:mt-0 xl:whitespace-pre xl:text-xl 2xl:text-3xl">
+            GM! Degens of the crypto realm!
+            The Bitcoin NFTs are about to shake things up.
+
+            Are you prepared for what’s coming?
+            Are you inscribing anything on Ordinals?
+            Are you ready to ride this next big wave?
+
+            If not... Well, that might just cost you another generational wealth.But you are not late!
+            For Satoshi Punks are here to welcome you.
+            To us, NFTs are not just a new way of owning and trading digital assets.
+            But a way of expressing oneself.
+            If you believe in authenticity...
+            Care about originality...
+            And a Punk at heart then join our tribe!
+
+            Let’s admire our JPEGs together and do some cool stuff.
+          </pre>
         </div>
       </div>
 
