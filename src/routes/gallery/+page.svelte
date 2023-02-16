@@ -47,7 +47,9 @@
             </ul>
           </div>
         </div>
-        <p class="text-2xl">The Punk Frontier: Evmos Punks are bringing the world of “quality NFTs” to Evmos Blockchain. With over-the-top promises and constant meh deliveries in hopes of WAGMI, we are diving headfirst into the NFT world. We had enough and decided to do it ourselves. Let’s admire our JPEGs together and do cool stuff.</p>
+        <p class="text-2xl">The Punk Frontier: Satoshi Punks are bringing the world of “quality NFTs” to Bitcoin chain. After chasing 100s of project with too good to be true promises and constant meh deliveries, we felt that we had enough and decided to do it ourselves.</p>
+        <p class="text-2xl my-6">Each Satoshi Punk is crafted with love and passion. Uniquely designed pixel by pixel to help your express yourself. Our unique brand of badassness is built on trust and transparency. We will never overpromise and always keep our holders’ best interest in mind.</p>
+        <p class="text-2xl">So if you're a punk at heart, who is tired of the same old same old, then join our tribe. Let’s admire our JPEGs together and do some cool stuff.</p>
       </div>
 
       <input type="text" bind:value={filterInput} placeholder="Search by id" class="text-white m-0 px-3 py-5 text-4xl bg-[#5D5068] input w-full md:w-3/12 border-2" />
