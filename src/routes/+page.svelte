@@ -86,43 +86,43 @@
         </a>
       </div>
 
-      <ul class="flex gap-9 justify-center flex-wrap">
-        <li class="p-4 bg-secondary w-auto">
+      <ul class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-9 justify-center flex-wrap">
+        <li class="p-4 flex flex-col items-center bg-secondary w-auto">
           <img src="/nfts/2.png" class="w-80 h-auto" alt="nftImage">
           <h3 class="text-4xl mt-4">Punk #2</h3>
         </li>
 
-        <li class="p-4 bg-secondary w-auto">
+        <li class="p-4 flex flex-col items-center bg-secondary w-auto">
           <img src="/nfts/30.png" class="w-80 h-auto" alt="nftImage">
           <h3 class="text-4xl mt-4">Punk #30</h3>
         </li>
 
-        <li class="p-4 bg-secondary w-auto">
+        <li class="p-4 flex flex-col items-center bg-secondary w-auto">
           <img src="/nfts/32.png" class="w-80 h-auto" alt="nftImage">
           <h3 class="text-4xl mt-4">Punk #32</h3>
         </li>
 
-        <li class="p-4 bg-secondary w-auto">
+        <li class="p-4 flex flex-col items-center bg-secondary w-auto">
           <img src="/nfts/83.png" class="w-80 h-auto" alt="nftImage">
           <h3 class="text-4xl mt-4">Punk #83</h3>
         </li>
 
-        <li class="p-4 bg-secondary w-auto">
+        <li class="p-4 flex flex-col items-center bg-secondary w-auto">
           <img src="/nfts/36.png" class="w-80 h-auto" alt="nftImage">
           <h3 class="text-4xl mt-4">Punk #36</h3>
         </li>
 
-        <li class="p-4 bg-secondary w-auto">
+        <li class="p-4 flex flex-col items-center bg-secondary w-auto">
           <img src="/nfts/17.png" class="w-80 h-auto" alt="nftImage">
           <h3 class="text-4xl mt-4">Punk #17</h3>
         </li>
 
-        <li class="p-4 bg-secondary w-auto">
+        <li class="p-4 flex flex-col items-center bg-secondary w-auto">
           <img src="/nfts/38.png" class="w-80 h-auto" alt="nftImage">
           <h3 class="text-4xl mt-4">Punk #38</h3>
         </li>
 
-        <li class="p-4 bg-secondary w-auto">
+        <li class="p-4 flex flex-col items-center bg-secondary w-auto">
           <img src="/nfts/18.png" class="w-80 h-auto" alt="nftImage">
           <h3 class="text-4xl mt-4">Punk #18</h3>
         </li>
@@ -137,7 +137,7 @@
       <h1 class="text-4xl md:text-8xl">Meet the gang</h1>
       <p class="md:w-12/12 text-lg md:text-4xl">Our philosophy is simple — hire a team of diverse, passionate people and foster a culture that empowers you to do your best work. Yeah, we copied it. </p>
 
-      <ul class="grid grid-cols-1 md:grid-cols-4 flex-col md:flex-row mt-16 gap-20">
+      <ul class="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-4 flex-col md:flex-row mt-16 gap-20">
         <li class="flex items-start flex-col">
           <img src="/nfts/45.png" class="w-80 h-auto" alt="nftImage">
           <h3 class="text-5xl mt-4">Lord Satoshi</h3>

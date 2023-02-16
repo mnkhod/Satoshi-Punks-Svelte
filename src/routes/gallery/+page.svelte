@@ -52,7 +52,7 @@
 
       <input type="text" bind:value={filterInput} placeholder="Search by id" class="text-white m-0 px-3 py-5 text-4xl bg-[#5D5068] input w-full md:w-3/12 border-2" />
 
-      <ul class="flex justify-around flex-wrap gap-32">
+      <ul class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 justify-around gap-32">
         {#if filterInput != ""}
           {#each NftJsonDataList.filter((i) => i.punk_id == filterInput) as nft}
             <GalleryNftCard 

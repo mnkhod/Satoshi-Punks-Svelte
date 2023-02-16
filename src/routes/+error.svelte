@@ -11,7 +11,7 @@
   <div class="punk-container px-12 md:px-40">
     <img src={BackgroundImage} class="absolute top-0 left-0 w-full h-full z-0" alt="bg">
 
-    <div class="relative grid mt-32 justify-center items-center grid-cols-1 md:grid-cols-2 gap-5 z-5">
+    <div class="relative grid mt-32 justify-center items-center grid-cols-1 xl:grid-cols-2 gap-5 z-5">
       <div class="text-white flex flex-col gap-4">
         <h5 class="text-xl md:text-4xl">Error...</h5>
         <h1 class="text-2xl md:text-7xl">Uhh,we can't find this page.</h1>

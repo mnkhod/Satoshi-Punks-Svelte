@@ -57,7 +57,7 @@ html {
 
 @layer components {
   .punk-container {
-    @apply relative min-h-screen p-12 md:p-32;
+    @apply relative min-h-screen p-12 sm:px-32 2xl:px-64;
   }
   .punk-inner-container {
     @apply flex flex-col gap-12 text-center md:text-left text-white relative z-10;
