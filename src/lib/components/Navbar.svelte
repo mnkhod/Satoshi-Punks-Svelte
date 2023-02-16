@@ -17,7 +17,7 @@
         <a href="#Manifesto">Manifesto</a>
       </li>
       <li>
-        <a href="#Gallery">Gallery</a>
+        <a href="/gallery">Gallery</a>
       </li>
       <li>
         <a href="#Gang">Gang</a>
