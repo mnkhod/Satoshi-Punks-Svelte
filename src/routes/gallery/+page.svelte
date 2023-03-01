@@ -14,7 +14,7 @@
   let filters = [
     {
       filterTitle : "Type",
-      filterCheckbox : true,
+      filterCheckbox : false,
       filterItems : [
         { name: "Alien", state: false, },
         { name: "Skeleton", state: false, },
@@ -25,7 +25,7 @@
     },
     {
       filterTitle : "Skin",
-      filterCheckbox : true,
+      filterCheckbox : false,
       filterItems : [
         { name: "Black", state: false, },
         { name: "Blue", state: false, },
@@ -43,7 +43,7 @@
     },
     {
       filterTitle : "Background",
-      filterCheckbox : true,
+      filterCheckbox : false,
       filterItems : [
         { name: "Dark", state: false, },
         { name: "Blue", state: false, },
@@ -56,17 +56,15 @@
         { name: "Eternal Blue Sky", state: false, },
         { name: "Green", state: false, },
         { name: "Horizon", state: false, },
-        { name: "Zombie", state: false, },
         { name: "Light", state: false, },
         { name: "Magical", state: false, },
         { name: "Squid Game", state: false, },
         { name: "Night Sky", state: false, },
-        { name: "Human", state: false, },
       ],
     },
     {
       filterTitle : "Headwear",
-      filterCheckbox : true,
+      filterCheckbox : false,
       filterItems : [
         { name: "None", state: false, },
         { name: "Ape Snap", state: false, },
@@ -90,7 +88,7 @@
     },
     {
       filterTitle : "Clothes",
-      filterCheckbox : true,
+      filterCheckbox : false,
       filterItems : [
         { name: "Degen Hoodie", state: false, },
         { name: "Fastfood Apron", state: false, },
@@ -116,7 +114,7 @@
     },
     {
       filterTitle : "Face Gear",
-      filterCheckbox : true,
+      filterCheckbox : false,
       filterItems : [
         { name: "None", state: false, },
         { name: "Optic Blaster", state: false, },
@@ -130,7 +128,7 @@
     },
     {
       filterTitle : "Accessories",
-      filterCheckbox : true,
+      filterCheckbox : false,
       filterItems : [
         { name: "None", state: false, },
         { name: "Gold Chain", state: false, },
@@ -140,7 +138,7 @@
     },
     {
       filterTitle : "Pets",
-      filterCheckbox : true,
+      filterCheckbox : false,
       filterItems : [
         { name: "None", state: false, },
         { name: "Doginal", state: false, },
@@ -148,7 +146,7 @@
     },
     {
       filterTitle : "Wings",
-      filterCheckbox : true,
+      filterCheckbox : false,
       filterItems : [
         { name: "None", state: false, },
         { name: "Crystal", state: false, },
@@ -273,13 +271,19 @@
 
       {#if showMobileFilter == false}
         <ul class="col-span-4 lg:col-span-3 auto-rows-min grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 justify-around gap-12">
-          {#each wingsFilteredNftData as nft}
+          {#if wingsFilteredNftData.length == 0}
+            <div class="w-full text-center lg:text-left">
+              <p class="text-lg lg:text-4xl">No NFT Found</p>
+            </div>
+          {:else}
+            {#each wingsFilteredNftData as nft}
             <GalleryNftCard 
               nftLink={nft.inscription_link}
               nftId={nft.image_id} 
               nftNumber={nft.inscription_id} 
             />
-          {/each}
+            {/each}
+          {/if}
         </ul>
       {/if}
       
