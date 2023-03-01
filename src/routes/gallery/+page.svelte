@@ -7,12 +7,196 @@
   import MintProfile from '$lib/assets/imgs/mintProfile.png'
   import NftJsonDataList from "$lib/constants/nfts.json";
 
-  import Nft1 from '$lib/assets/imgs/nft1.png'
-  import Nft2 from '$lib/assets/imgs/nft2.png'
-  import Nft3 from '$lib/assets/imgs/nft3.png'
-  import Nft4 from '$lib/assets/imgs/nft4.png'
-
   let filterInput = "";
+  let typeCheckBox = true;
+  let showMobileFilter = false;
+
+  let filters = [
+    {
+      filterTitle : "Type",
+      filterCheckbox : true,
+      filterItems : [
+        { name: "Alien", state: false, },
+        { name: "Skeleton", state: false, },
+        { name: "Ape", state: false, },
+        { name: "Zombie", state: false, },
+        { name: "Human", state: false, },
+      ],
+    },
+    {
+      filterTitle : "Skin",
+      filterCheckbox : true,
+      filterItems : [
+        { name: "Black", state: false, },
+        { name: "Blue", state: false, },
+        { name: "Brown", state: false, },
+        { name: "Green", state: false, },
+        { name: "Rotten", state: false, },
+        { name: "White", state: false, },
+        { name: "Yellow", state: false, },
+        { name: "Neon", state: false, },
+        { name: "Normal", state: false, },
+        { name: "Pink", state: false, },
+        { name: "Rad Glow", state: false, },
+        { name: "Red", state: false, },
+      ],
+    },
+    {
+      filterTitle : "Background",
+      filterCheckbox : true,
+      filterItems : [
+        { name: "Dark", state: false, },
+        { name: "Blue", state: false, },
+        { name: "Dust", state: false, },
+        { name: "Twin Stars", state: false, },
+        { name: "Pink", state: false, },
+        { name: "Grey", state: false, },
+        { name: "Sunset Sky", state: false, },
+        { name: "Emerald City", state: false, },
+        { name: "Eternal Blue Sky", state: false, },
+        { name: "Green", state: false, },
+        { name: "Horizon", state: false, },
+        { name: "Zombie", state: false, },
+        { name: "Light", state: false, },
+        { name: "Magical", state: false, },
+        { name: "Squid Game", state: false, },
+        { name: "Night Sky", state: false, },
+        { name: "Human", state: false, },
+      ],
+    },
+    {
+      filterTitle : "Headwear",
+      filterCheckbox : true,
+      filterItems : [
+        { name: "None", state: false, },
+        { name: "Ape Snap", state: false, },
+        { name: "Bad Hair Day", state: false, },
+        { name: "Bat Mask", state: false, },
+        { name: "Beanie", state: false, },
+        { name: "Cap", state: false, },
+        { name: "Cowboy Hat", state: false, },
+        { name: "Crimson Halo", state: false, },
+        { name: "Crystal Halo", state: false, },
+        { name: "Durag", state: false, },
+        { name: "Flaming", state: false, },
+        { name: "Founder Snap", state: false, },
+        { name: "Ginger Hair", state: false, },
+        { name: "Human", state: false, },
+        { name: "Golden Halo", state: false, },
+        { name: "Head Scarf", state: false, },
+        { name: "Manager Helmet", state: false, },
+        { name: "Nerd Hair", state: false, },
+      ],
+    },
+    {
+      filterTitle : "Clothes",
+      filterCheckbox : true,
+      filterItems : [
+        { name: "Degen Hoodie", state: false, },
+        { name: "Fastfood Apron", state: false, },
+        { name: "Freddy", state: false, },
+        { name: "Green Dots", state: false, },
+        { name: "Jacket", state: false, },
+        { name: "Kurta", state: false, },
+        { name: "Manager Helmet", state: false, },
+        { name: "Maxi Tee", state: false, },
+        { name: "Monarch Suit", state: false, },
+        { name: "Nudist", state: false, },
+        { name: "Orange Hoodie", state: false, },
+        { name: "Police Uniform", state: false, },
+        { name: "Reaper Cloak", state: false, },
+        { name: "Space Suit", state: false, },
+        { name: "Sub Armor", state: false, },
+        { name: "Red Tee", state: false, },
+        { name: "Royal Space Suit", state: false, },
+        { name: "Rugged Robe", state: false, },
+        { name: "Sheriff Uniform", state: false, },
+        { name: "Space Fleet Uniform", state: false, },
+      ],
+    },
+    {
+      filterTitle : "Face Gear",
+      filterCheckbox : true,
+      filterItems : [
+        { name: "None", state: false, },
+        { name: "Optic Blaster", state: false, },
+        { name: "Shiny Glasses", state: false, },
+        { name: "Pipe", state: false, },
+        { name: "Neon Glasses", state: false, },
+        { name: "Eyepatch", state: false, },
+        { name: "3D Glasses", state: false, },
+        { name: "Sun Shades", state: false, },
+      ],
+    },
+    {
+      filterTitle : "Accessories",
+      filterCheckbox : true,
+      filterItems : [
+        { name: "None", state: false, },
+        { name: "Gold Chain", state: false, },
+        { name: "Silver Chain", state: false, },
+        { name: "Monocle", state: false, },
+      ],
+    },
+    {
+      filterTitle : "Pets",
+      filterCheckbox : true,
+      filterItems : [
+        { name: "None", state: false, },
+        { name: "Doginal", state: false, },
+      ],
+    },
+    {
+      filterTitle : "Wings",
+      filterCheckbox : true,
+      filterItems : [
+        { name: "None", state: false, },
+        { name: "Crystal", state: false, },
+        { name: "Angelic", state: false, },
+        { name: "Golden", state: false, },
+        { name: "Demonic", state: false, },
+      ],
+    },
+  ];
+
+  let inputFilteredNftData = NftJsonDataList;
+
+  $: if (filterInput != "") {
+    inputFilteredNftData = NftJsonDataList.filter((i) => i.inscription_id == filterInput);
+  }else{
+    inputFilteredNftData = NftJsonDataList;
+  }
+
+
+  $: typeFilteredNftData = filterNftData(inputFilteredNftData,0,"nft_type",filters)
+  $: skinFilteredNftData = filterNftData(typeFilteredNftData,1,"skin",filters)
+  $: bgFilteredNftData = filterNftData(skinFilteredNftData,2,"background",filters)
+  $: headwearFilteredNftData = filterNftData(bgFilteredNftData,3,"headwear",filters)
+  $: clothesFilteredNftData = filterNftData(headwearFilteredNftData,4,"clothes",filters)
+  $: faceGearFilteredNftData = filterNftData(clothesFilteredNftData,5,"face_gear",filters)
+  $: accessoriesFilteredNftData = filterNftData(faceGearFilteredNftData,6,"accessories",filters)
+  $: petFilteredNftData = filterNftData(accessoriesFilteredNftData,7,"pets",filters)
+  $: wingsFilteredNftData = filterNftData(petFilteredNftData,8,"wings",filters)
+
+  function showMobileFilterHandler(state){
+    showMobileFilter = state;
+  }
+
+  function filterNftData(filterData,filterIndex,filterParameter,allFilters){
+    return filterData.filter((nft) => {
+      let f = allFilters[filterIndex]
+      let items = f.filterItems;
+      let checkedItems = f.filterItems.filter(i => i.state == true);
+
+      if(checkedItems.length == 0) { 
+        return true 
+      }
+
+      let found = checkedItems.filter((i) => i.name == nft[filterParameter])
+
+      return found.length > 0
+    })
+  }
 
 </script>
 
@@ -25,7 +209,8 @@
   <div class="punk-container">
     <div class="bg-[url('/bg.png')] absolute top-0 bg-repeat bg-auto h-full w-full bg-center left-0 w-full z-0" alt="bg"></div>
 
-    <div class="punk-inner-container flex flex-col">
+    <div class="punk-inner-container gap-12 grid grid-cols-4">
+      <!--
       <div class="w-full md:w-11/12 flex flex-col gap-4">
         <div class="flex flex-col items-center md:flex-row gap-7">
           <div>
@@ -51,27 +236,106 @@
         <p class="text-2xl my-6">Each Satoshi Punk is crafted with love and passion. Uniquely designed pixel by pixel to help your express yourself. Our unique brand of badassness is built on trust and transparency. We will never overpromise and always keep our holders’ best interest in mind.</p>
         <p class="text-2xl">So if you're a punk at heart, who is tired of the same old same old, then join our tribe. Let’s admire our JPEGs together and do some cool stuff.</p>
       </div>
+    -->
 
-      <input type="text" bind:value={filterInput} placeholder="Search by id" class="text-white m-0 px-3 py-5 text-4xl bg-[#5D5068] input w-full md:w-3/12 border-2" />
+      <div class="hidden lg:block lg:col-span-1">
+        <h1 class="text-6xl">Filter</h1>
+        <div class="mt-8 p-1">
+          <input type="text" bind:value={filterInput} placeholder="Search by ID" class="text-white m-0 py-5 text-4xl bg-transparent input w-full" />
+          <div class="w-11/12 mx-auto h-0.5 bg-white"></div>
 
-      <ul class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 justify-around gap-32">
-        {#if filterInput != ""}
-          {#each NftJsonDataList.filter((i) => i.punk_id == filterInput) as nft}
+          <div class="flex flex-col gap-3 mt-3">
+            {#each filters as filterItem}
+              <div class="collapse">
+                <input type="checkbox" bind:checked={filterItem.filterCheckbox} /> 
+                <label class="collapse-title w-full p-0 flex items-center justify-between">
+                  <p class="text-4xl">{filterItem.filterTitle}</p>
+                  {#if filterItem.filterCheckbox }
+                    <svg class="h-5 w-auto fill-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" d="M19 12.998H5v-2h14z"/></svg>
+                  {:else}
+                    <svg class="h-5 w-auto fill-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" d="M19 12.998h-6v6h-2v-6H5v-2h6v-6h2v6h6z"/></svg>
+                  {/if}
+                </label>
+                <div class="collapse-content"> 
+                  {#each filterItem.filterItems as filterItem}
+                    <div class="flex items-center gap-2">
+                      <input type="checkbox" class="checkbox-sm" bind:checked={filterItem.state} />
+                      <p class="text-3xl">{filterItem.name}</p>
+                    </div>
+                  {/each}
+                </div>
+              </div>
+            {/each}
+          </div>
+
+        </div>
+      </div>
+
+      {#if showMobileFilter == false}
+        <ul class="col-span-4 lg:col-span-3 auto-rows-min grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 justify-around gap-12">
+          {#each wingsFilteredNftData as nft}
             <GalleryNftCard 
               nftLink={nft.inscription_link}
-              nftId={nft.punk_id} nftNumber={nft.inscription_id} />
+              nftId={nft.image_id} 
+              nftNumber={nft.inscription_id} 
+            />
           {/each}
-        {:else}
-          {#each NftJsonDataList as nft}
-            <GalleryNftCard 
-              nftLink={nft.inscription_link}
-              nftId={nft.punk_id} nftNumber={nft.inscription_id} />
-          {/each}
-        {/if}
-      </ul>
+        </ul>
+      {/if}
       
     </div>
+
   </div>
+
+  {#if showMobileFilter == false}
+    <div class="lg:hidden z-10 sticky left-0 bottom-5 w-full flex justify-center items-center">
+      <button on:click={() => showMobileFilterHandler(true)} class="z-20 py-2 w-5/12 border-2 border-white text-white bg-[url('/bg.png')] rounded-full text-4xl bg-white">Filter</button>
+    </div>
+  {/if}
+
+  {#if showMobileFilter == true}
+    <div class="w-full bg-[url('/bg.png')] bg-repeat absolute top-0 left-0 bg-white z-30">
+      <div class="p-6 text-white">
+        <div class="flex justify-between items-center">
+          <h1 class="text-6xl">Filter</h1>
+          <svg on:click={() => showMobileFilterHandler(false)} class="w-auto h-8" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" d="M18.36 19.78L12 13.41l-6.36 6.37l-1.42-1.42L10.59 12L4.22 5.64l1.42-1.42L12 10.59l6.36-6.36l1.41 1.41L13.41 12l6.36 6.36z"/></svg>
+        </div>
+        <div class="mt-8 p-1">
+          <input type="text" bind:value={filterInput} placeholder="Search by ID" class="text-white m-0 py-5 text-4xl bg-transparent input w-full" />
+          <div class="w-11/12 mx-auto h-0.5 bg-white"></div>
+
+          <div class="flex flex-col gap-3 mt-3">
+            {#each filters as filterItem}
+              <div class="collapse">
+                <input type="checkbox" bind:checked={filterItem.filterCheckbox} /> 
+                <label class="collapse-title w-full p-0 flex items-center justify-between">
+                  <p class="text-4xl">{filterItem.filterTitle}</p>
+                  {#if filterItem.filterCheckbox }
+                    <svg class="h-5 w-auto fill-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" d="M19 12.998H5v-2h14z"/></svg>
+                  {:else}
+                    <svg class="h-5 w-auto fill-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" d="M19 12.998h-6v6h-2v-6H5v-2h6v-6h2v6h6z"/></svg>
+                  {/if}
+                </label>
+                <div class="collapse-content"> 
+                  {#each filterItem.filterItems as filterItem}
+                    <div class="flex items-center gap-2">
+                      <input type="checkbox" class="checkbox-sm" bind:checked={filterItem.state} />
+                      <p class="text-3xl">{filterItem.name}</p>
+                    </div>
+                  {/each}
+                </div>
+              </div>
+            {/each}
+          </div>
+
+        </div>
+      
+
+      </div>
+    </div>
+  {/if}
+
+
 
   <Footer />
 
