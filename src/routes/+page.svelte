@@ -33,8 +33,8 @@
 			class="absolute top-0 left-0 z-0 w-full h-full object-right md:object-center object-cover"
 			alt="coverImage"
 		/>
-		<div class="relative flex flex-col items-center">
-			<h1 class="text-white text-5xl md:text-[72px] leading-[90px] text-center tracking-wide">
+		<div class="relative flex flex-col items-center max-w-[294px] sm:max-w-none">
+			<h1 class="text-white text-5xl md:text-[72px] leading-[48px] sm:leading-[90px] text-center">
 				JUST HODL A PUNK. <br /> WHAT MORE DO U NEED?
 			</h1>
 		</div>
@@ -43,8 +43,8 @@
 	<div class="w-full flex justify-center relative bg-[url('./lib/assets/imgs/bg.png')]">
 		<div class="punk-container" id="Manifesto">
 			<div class="punk-inner-container">
-				<h1 class="text-6xl leading-[72px] font-normal">Manifesto</h1>
-				<h1 class="text-4xl leading-[44px] font-normal">
+				<h1 class="text-5xl sm:text-6xl leading-[60px] sm:leading-[72px] font-normal">Manifesto</h1>
+				<h1 class="text-2xl sm:text-4xl leading-8 sm:leading-[44px] font-normal">
 					GM! Degens of the crypto realm! <br /> The Bitcoin NFTs are about to shake things up.<br
 					/><br />Are you prepared for what’s coming? <br />Are you inscribing anything on Ordinals?
 					<br />Are you ready to ride this next big wave? <br /><br />If not... Well, that might
@@ -62,18 +62,15 @@
 		<div class="punk-container" id="Gallery">
 			<div class="punk-inner-container">
 				<div class="flex flex-col md:flex-row gap-5 md:gap-0 justify-between">
-					<h1 class="text-4xl md:text-6xl leading-[72px] font-normal">
-						Gallery - crafted with love
+					<h1 class="text-4xl md:text-6xl leading-[60px] sm:leading-[72px] flex font-normal">
+						Gallery <span class="hidden sm:block">- crafted with love </span>
 					</h1>
-					<a
-						href="/gallery"
-						class="punk-btn text-xl w-full md:w-[280px] flex justify-center items-center gap-2"
-					>
-						View All
-					</a>
+					<a href="/gallery" class="punk-btn hidden sm:flex"> View All </a>
 				</div>
 
-				<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-x-8 gap-y-16">
+				<div
+					class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-x-4 gap-y-4 sm:gap-x-8 sm:gap-y-16"
+				>
 					<li class="flex flex-col gap-4">
 						<img src="/nfts/2.png" class="w-full" alt="nftImage" />
 						<div>
@@ -138,6 +135,7 @@
 						</div>
 					</li>
 				</div>
+				<a href="/gallery" class="punk-btn flex sm:hidden"> View All </a>
 			</div>
 		</div>
 	</div>
@@ -146,14 +144,18 @@
 		<div class="punk-container" id="Gang">
 			<div class="punk-inner-container">
 				<div class="flex flex-col gap-4">
-					<h1 class="text-4xl md:text-6xl leading-[72px] font-normal">Meet the gang</h1>
-					<p class="md:w-12/12 text-lg md:text-4xl text-[#EAECF0] leading-[44px] font-normal">
+					<h1 class="text-4xl sm:text-6xl leading-[60px] sm:leading-[72px] font-normal">
+						Meet the gang
+					</h1>
+					<p class="text-2xl md:text-4xl text-[#EAECF0] leading-8 sm:leading-[44px] font-normal">
 						Our philosophy is simple — hire a team of diverse, passionate people and foster a
 						culture that empowers you to do your best work. Yeah, we copied it.
 					</p>
 				</div>
 
-				<div class="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-4 gap-x-8 gap-y-16">
+				<div
+					class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-x-4 gap-y-4 sm:gap-x-8 sm:gap-y-16"
+				>
 					<li class="flex flex-col gap-4">
 						<img src="/nfts/45.png" class="w-full" alt="nftImage" />
 						<div>

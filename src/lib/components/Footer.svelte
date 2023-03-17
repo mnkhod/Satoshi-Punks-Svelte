@@ -6,8 +6,10 @@
 
 <main>
 	<div class="w-full flex justify-center relative bg-[url('./lib/assets/imgs/bg.png')]">
-		<div class="max-w-[1440px] w-full flex justify-between items-center px-[112px] py-12">
-			<img src={LogoWhite} class="w-[254px] h-8" alt="" />
+		<div
+			class="max-w-[1440px] w-full flex flex-col sm:flex-row justify-between sm:items-center gap-4 sm:gap-0 px-4 py-12 sm:px-[112px] sm:py-12"
+		>
+			<img src={LogoWhite} class="w-[254px] h-8 hidden sm:block" alt="" />
 			<div class="flex gap-6">
 				<img src={TwitterImg} class="w-6 h-6" alt="" />
 				<img src={DiscordImg} class="w-6 h-6" alt="" />
