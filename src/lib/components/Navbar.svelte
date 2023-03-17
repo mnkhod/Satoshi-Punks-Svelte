@@ -11,9 +11,7 @@
 	<div
 		class="absolute top-0 w-full flex justify-center sm:h-20 backdrop-blur-md bg-[rgba(0,0,0,0.3)] z-10"
 	>
-		<div
-			class="w-full max-w-[1440px] flex px-4 py-3 sm:py-0 md:px-10 lg:px-[112px] justify-between items-center"
-		>
+		<div class="w-full flex px-4 py-3 sm:py-0 md:px-10 lg:px-[112px] justify-between items-center">
 			<a href="/" class="flex-none">
 				<img src={LogoImg} class="sm:w-[160px] lg:w-[254px]" alt="" /></a
 			>

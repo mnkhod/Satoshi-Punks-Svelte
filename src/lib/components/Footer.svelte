@@ -7,7 +7,7 @@
 <main>
 	<div class="w-full flex justify-center relative bg-[url('./lib/assets/imgs/bg.png')]">
 		<div
-			class="w-full flex flex-col sm:flex-row justify-between sm:items-center gap-4 sm:gap-0 px-4 py-12 sm:px-10 lg:px-[112px] sm:py-12"
+			class="max-w-[1440px] w-full flex flex-col sm:flex-row justify-between sm:items-center gap-4 sm:gap-0 px-4 py-12 sm:px-10 lg:px-[112px] sm:py-12"
 		>
 			<img src={LogoWhite} class="w-[254px] h-8 hidden sm:block" alt="" />
 			<div class="flex gap-6">
