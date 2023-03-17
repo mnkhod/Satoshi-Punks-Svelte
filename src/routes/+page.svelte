@@ -63,7 +63,7 @@
 			<div class="punk-inner-container">
 				<div class="flex flex-col md:flex-row gap-5 md:gap-0 justify-between">
 					<h1 class="text-4xl md:text-6xl leading-[60px] sm:leading-[72px] flex font-normal">
-						Gallery <span class="hidden sm:block">- crafted with love </span>
+						Gallery <span class="hidden lg:block">- crafted with love </span>
 					</h1>
 					<a href="/gallery" class="punk-btn hidden sm:flex"> View All </a>
 				</div>
