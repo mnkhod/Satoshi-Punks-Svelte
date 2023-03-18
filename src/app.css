@@ -81,7 +81,6 @@ audio,
 video {
 	margin: 0;
 	padding: 0;
-	border: 0;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -102,6 +101,7 @@ section {
 }
 body {
 	line-height: 1;
+	min-height: 100vh;
 }
 ol,
 ul {
