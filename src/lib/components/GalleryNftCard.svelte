@@ -1,18 +1,18 @@
 <script>
-  import data from "../constants/nfts.json";
-  export let nftId,nftNumber,nftLink;
+	import data from '../constants/nfts.json';
+	export let nftId, nftNumber, nftLink;
 </script>
 
 <main>
-  <a href={nftLink}>
-    <li class="">
-      <div class="p-4 flex h-auto items-center flex-col gap-3 ">
-        <img src={"/nfts/" + nftId + ".png"} alt="Nft" class="w-72 h-auto">
-        <div class="flex flex-col gap-1">
-          <h5 class="text-4xl">Satoshi Punk #{nftId}</h5>
-          <h2 class="mt-0 pt-0 text-lg">No {nftNumber}</h2>
-        </div>
-      </div>
-    </li>
-  </a>
+	<a href={nftLink}>
+		<li class="">
+			<div class="flex h-auto flex-col gap-4">
+				<img src={'/nfts/' + nftId + '.png'} alt="Nft" class="w-full h-auto" />
+				<div>
+					<p class="text-4xl leading-[44px]">Satoshi Punk #{nftId}</p>
+					<p class="text-2xl leading-8 text-[#EAECF0]">No {nftNumber}</p>
+				</div>
+			</div>
+		</li>
+	</a>
 </main>
