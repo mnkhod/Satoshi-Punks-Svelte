@@ -21,7 +21,7 @@
 				<a href={route == 'home' ? '#Manifesto' : '/#Manifesto'} class="px-2">Manifesto</a>
 				<a href="/gallery">Gallery</a>
 				<a href={route == 'home' ? '#Gang' : '/#Gang'}>Team</a>
-				<a href={'/buy'}>Buy</a>
+				<a href={'/minter'}>Buy</a>
 				<a href="https://tiwtter.com"><img src={TwitterImg} class="w-6 h-6" alt="" /></a>
 				<a href="https://discord.gg/satoshipunks" class="w-11 h-11 flex items-center justify-center"
 					><img src={DiscordImg} class="w-6 h-6" alt="" /></a
