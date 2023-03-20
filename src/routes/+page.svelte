@@ -57,7 +57,7 @@
 			</div>
 		</div>
 	</div>
-
+	<!-- 
 	<div class="w-full flex justify-center relative bg-[url('./lib/assets/imgs/bg.png')]">
 		<div class="punk-container" id="Gallery">
 			<div class="punk-inner-container">
@@ -201,7 +201,7 @@
 				</div>
 			</div>
 		</div>
-	</div>
+	</div> -->
 
 	<Footer />
 </main>

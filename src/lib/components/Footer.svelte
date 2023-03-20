@@ -11,8 +11,12 @@
 		>
 			<img src={LogoWhite} class="w-[254px] h-8 hidden sm:block" alt="" />
 			<div class="flex gap-6">
-				<img src={TwitterImg} class="w-6 h-6" alt="" />
-				<img src={DiscordImg} class="w-6 h-6" alt="" />
+				<a href="https://twitter.com/SatoshiPunksNFT">
+					<img src={TwitterImg} class="w-6 h-6" alt="" />
+				</a>
+				<a href="https://discord.gg/satoshipunks">
+					<img src={DiscordImg} class="w-6 h-6" alt="" /></a
+				>
 			</div>
 			<p class="text-xl leading-6 text-[#98A2B3] font-normal">
 				© 2022 Satoshi Punks. All rights reserved.
