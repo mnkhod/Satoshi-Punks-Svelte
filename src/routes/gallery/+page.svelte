@@ -199,7 +199,7 @@
 <main>
 	<Navbar route="gallery" />
 	<img
-		src={'/banner.png'}
+		src={'/gallery-bg.png'}
 		class="top-0 left-0 z-0 w-full h-[224px] sm:h-auto object-cover"
 		alt="coverImage"
 	/>
