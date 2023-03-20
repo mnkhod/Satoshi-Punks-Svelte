@@ -15,11 +15,37 @@
 		DETAILS: 'Details'
 	};
 
+	const RoundInfos = [
+		{
+			price: 0,
+			maxMintNumber: 1,
+			mintStartTime: new Date('Fri, 24 Mar 2023 16:00:00 GMT')
+		},
+		{
+			price: 0.02,
+			maxMintNumber: 5,
+			mintStartTime: new Date('Fri, 24 Mar 2023 16:00:00 GMT')
+		},
+		{
+			price: 0.03,
+			maxMintNumber: 10,
+			mintStartTime: new Date('Fri, 24 Mar 2023 16:00:00 GMT')
+		}
+	];
+
 	let mintAmount = 1;
 	let currenctTabName = TabNames.MINT;
+	let currrentRound = RoundInfos[0];
+
+	for (let i = 0; i < RoundInfos.length; i++) {
+		if (RoundInfos[i].mintStartTime > new Date()) {
+			currrentRound = RoundInfos[i];
+			break;
+		}
+	}
 
 	const onIncreaseBtnClicked = () => {
-		if (mintAmount < 3) mintAmount++;
+		if (mintAmount < currrentRound.maxMintNumber) mintAmount++;
 	};
 
 	const onDecreaseBtnClicked = () => {
@@ -102,7 +128,7 @@
 					</div>
 					<div>
 						<p class="text-2xl text-[#EAECF0] flex w-full justify-between">
-							Transaction summary: <span>0.09 ETH</span>
+							Transaction summary: <span>{mintAmount * currrentRound.price} ETH</span>
 						</p>
 
 						<p class="text-2xl text-[#EAECF0] flex w-full justify-between">
