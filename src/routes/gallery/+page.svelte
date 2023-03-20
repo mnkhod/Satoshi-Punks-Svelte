@@ -200,7 +200,7 @@
 	<Navbar route="gallery" />
 	<img
 		src={'/gallery-bg.png'}
-		class="top-0 left-0 z-0 w-full h-[224px] sm:h-auto object-cover"
+		class="top-0 left-0 z-0 w-full h-[224px] sm:h-[30vw] object-cover"
 		alt="coverImage"
 	/>
 	<div class="w-full flex justify-center bg-[url('./lib/assets/imgs/bg.png')]">
