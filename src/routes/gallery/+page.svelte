@@ -295,12 +295,12 @@
 				<div class="flex flex-col gap-8">
 					<div class="flex w-full">
 						<a
-							href="gallery"
+							href="/gallery"
 							class="text-white w-1/2 lg:w-auto text-4xl lg:text-6xl leading-[44px] lg:leading-[72px] px-4 bg-[rgba(78,66,88,0.5)]"
 							>Punks</a
 						>
 						<a
-							href="gallery/doginals"
+							href="/gallery/doginals"
 							class="text-white w-1/2 lg:w-auto text-4xl lg:text-6xl leading-[44px] lg:leading-[72px] px-4"
 							>Doginals</a
 						>
