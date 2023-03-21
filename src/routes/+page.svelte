@@ -90,48 +90,48 @@
 					<li class="flex flex-col gap-4">
 						<img src="/nfts/punks/32.png" class="w-full" alt="nftImage" />
 						<div>
-							<p class="text-4xl leading-[44px] font-normal">Punk #2</p>
-							<p class="text-2xl leading-8 font-normal">Inscription 36806</p>
+							<p class="text-4xl leading-[44px] font-normal">Punk #32</p>
+							<p class="text-2xl leading-8 font-normal">Inscription 63919</p>
 						</div>
 					</li>
 
 					<li class="flex flex-col gap-4">
 						<img src="/nfts/punks/83.png" class="w-full" alt="nftImage" />
 						<div>
-							<p class="text-4xl leading-[44px] font-normal">Punk #2</p>
-							<p class="text-2xl leading-8 font-normal">Inscription 36806</p>
+							<p class="text-4xl leading-[44px] font-normal">Punk #83</p>
+							<p class="text-2xl leading-8 font-normal">Inscription 73597</p>
 						</div>
 					</li>
 
 					<li class="flex flex-col gap-4">
 						<img src="/nfts/punks/36.png" class="w-full" alt="nftImage" />
 						<div>
-							<p class="text-4xl leading-[44px] font-normal">Punk #2</p>
-							<p class="text-2xl leading-8 font-normal">Inscription 36806</p>
+							<p class="text-4xl leading-[44px] font-normal">Punk #36</p>
+							<p class="text-2xl leading-8 font-normal">Inscription 64782</p>
 						</div>
 					</li>
 
 					<li class="flex flex-col gap-4">
 						<img src="/nfts/punks/17.png" class="w-full" alt="nftImage" />
 						<div>
-							<p class="text-4xl leading-[44px] font-normal">Punk #2</p>
-							<p class="text-2xl leading-8 font-normal">Inscription 36806</p>
+							<p class="text-4xl leading-[44px] font-normal">Punk #17</p>
+							<p class="text-2xl leading-8 font-normal">Inscription 57178</p>
 						</div>
 					</li>
 
 					<li class="flex flex-col gap-4">
 						<img src="/nfts/punks/38.png" class="w-full" alt="nftImage" />
 						<div>
-							<p class="text-4xl leading-[44px] font-normal">Punk #2</p>
-							<p class="text-2xl leading-8 font-normal">Inscription 36806</p>
+							<p class="text-4xl leading-[44px] font-normal">Punk #38</p>
+							<p class="text-2xl leading-8 font-normal">Inscription 71727</p>
 						</div>
 					</li>
 
 					<li class="flex flex-col gap-4">
 						<img src="/nfts/punks/18.png" class="w-full" alt="nftImage" />
 						<div>
-							<p class="text-4xl leading-[44px] font-normal">Punk #2</p>
-							<p class="text-2xl leading-8 font-normal">Inscription 36806</p>
+							<p class="text-4xl leading-[44px] font-normal">Punk #18</p>
+							<p class="text-2xl leading-8 font-normal">Inscription 57058</p>
 						</div>
 					</li>
 				</div>
