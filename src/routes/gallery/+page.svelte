@@ -318,7 +318,7 @@
 					/>
 					{#if showMobileFilter == false}
 						<ul
-							class="col-span-4 lg:col-span-3 auto-rows-min grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 justify-around gap-x-4 gap-y-6 lg:gap-8"
+							class="col-span-4 lg:col-span-3 auto-rows-min grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 justify-around gap-x-4 gap-y-6 lg:gap-8"
 						>
 							{#if wingsFilteredNftData.length == 0}
 								<div class="w-full text-center lg:text-left">
