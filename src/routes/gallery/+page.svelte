@@ -330,7 +330,8 @@
 										nftLink={nft.inscription_link}
 										nftId={nft.image_id}
 										nftNumber={nft.inscription_id}
-										path="/nfts/punks/"
+										path="/nfts/"
+										type="punks"
 									/>
 								{/each}
 							{/if}

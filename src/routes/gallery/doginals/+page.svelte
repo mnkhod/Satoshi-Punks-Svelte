@@ -5,7 +5,7 @@
 	import MintCover from '$lib/assets/imgs/mintCover.png';
 	import BackgroundImage from '$lib/assets/imgs/bg.png';
 	import MintProfile from '$lib/assets/imgs/mintProfile.png';
-	import NftJsonDataList from '$lib/constants/nfts.json';
+	import NftJsonDataList from '$lib/constants/doginals.json';
 
 	let filterInput = '';
 	let typeCheckBox = true;
@@ -13,53 +13,65 @@
 
 	let filters = [
 		{
-			filterTitle: 'Type',
+			filterTitle: 'Body',
 			filterCheckbox: false,
 			filterItems: [
-				{ name: 'Alien', state: false },
-				{ name: 'Skeleton', state: false },
-				{ name: 'Ape', state: false },
-				{ name: 'Zombie', state: false },
-				{ name: 'Human', state: false }
-			]
-		},
-		{
-			filterTitle: 'Skin',
-			filterCheckbox: false,
-			filterItems: [
-				{ name: 'Black', state: false },
-				{ name: 'Blue', state: false },
 				{ name: 'Brown', state: false },
-				{ name: 'Green', state: false },
-				{ name: 'Rotten', state: false },
-				{ name: 'White', state: false },
-				{ name: 'Yellow', state: false },
-				{ name: 'Neon', state: false },
-				{ name: 'Normal', state: false },
+				{ name: 'Snow', state: false },
+				{ name: 'Doge', state: false },
+				{ name: 'Zombie', state: false },
+				{ name: 'Dark', state: false },
 				{ name: 'Pink', state: false },
-				{ name: 'Rad Glow', state: false },
-				{ name: 'Red', state: false }
+				{ name: 'Fading', state: false }
 			]
 		},
 		{
 			filterTitle: 'Background',
 			filterCheckbox: false,
 			filterItems: [
-				{ name: 'Dark', state: false },
-				{ name: 'Blue', state: false },
-				{ name: 'Dust', state: false },
-				{ name: 'Twin Stars', state: false },
+				{ name: 'Aqua', state: false },
+				{ name: 'Aqua Space', state: false },
+				{ name: 'Hacker', state: false },
+				{ name: 'Light Green', state: false },
 				{ name: 'Pink', state: false },
-				{ name: 'Grey', state: false },
-				{ name: 'Sunset Sky', state: false },
-				{ name: 'Emerald City', state: false },
-				{ name: 'Eternal Blue Sky', state: false },
-				{ name: 'Green', state: false },
-				{ name: 'Horizon', state: false },
-				{ name: 'Light', state: false },
-				{ name: 'Magical', state: false },
-				{ name: 'Squid Game', state: false },
-				{ name: 'Night Sky', state: false }
+				{ name: 'Pink Space', state: false },
+				{ name: 'Pitch Black', state: false },
+				{ name: 'Sandy Beach', state: false },
+				{ name: 'Crystal', state: false },
+				{ name: 'Dark Grey', state: false },
+				{ name: 'Hacker HQ', state: false },
+				{ name: 'Holy', state: false },
+				{ name: 'Satoshi', state: false }
+			]
+		},
+		{
+			filterTitle: 'Suit',
+			filterCheckbox: false,
+			filterItems: [
+				{ name: 'Black Tee', state: false },
+				{ name: 'Fast Food Apron', state: false },
+				{ name: 'Founder Hoodie', state: false },
+				{ name: 'Hacker Hoodie', state: false },
+				{ name: 'Jacket', state: false },
+				{ name: 'Maxi Tee', state: false },
+				{ name: 'Nudist', state: false },
+				{ name: 'Space Suit Blue', state: false },
+				{ name: 'Space Suit Pink', state: false },
+				{ name: 'Royal Space Suit', state: false },
+				{ name: 'Bat Suit', state: false },
+				{ name: 'OrdSwap Tee', state: false },
+				{ name: 'Doginal Tee', state: false }
+			]
+		},
+		{
+			filterTitle: 'Expression',
+			filterCheckbox: false,
+			filterItems: [
+				{ name: 'Chill', state: false },
+				{ name: 'Evil', state: false },
+				{ name: 'Excited', state: false },
+				{ name: 'Normal', state: false },
+				{ name: 'Sad', state: false }
 			]
 		},
 		{
@@ -67,92 +79,30 @@
 			filterCheckbox: false,
 			filterItems: [
 				{ name: 'None', state: false },
-				{ name: 'Ape Snap', state: false },
-				{ name: 'Bad Hair Day', state: false },
-				{ name: 'Bat Mask', state: false },
-				{ name: 'Beanie', state: false },
-				{ name: 'Cap', state: false },
-				{ name: 'Cowboy Hat', state: false },
-				{ name: 'Crimson Halo', state: false },
-				{ name: 'Crystal Halo', state: false },
-				{ name: 'Durag', state: false },
-				{ name: 'Flaming', state: false },
-				{ name: 'Founder Snap', state: false },
-				{ name: 'Ginger Hair', state: false },
-				{ name: 'Human', state: false },
-				{ name: 'Golden Halo', state: false },
-				{ name: 'Head Scarf', state: false },
-				{ name: 'Manager Helmet', state: false },
-				{ name: 'Nerd Hair', state: false }
-			]
-		},
-		{
-			filterTitle: 'Clothes',
-			filterCheckbox: false,
-			filterItems: [
-				{ name: 'Degen Hoodie', state: false },
-				{ name: 'Fastfood Apron', state: false },
-				{ name: 'Freddy', state: false },
-				{ name: 'Green Dots', state: false },
-				{ name: 'Jacket', state: false },
-				{ name: 'Kurta', state: false },
-				{ name: 'Manager Helmet', state: false },
-				{ name: 'Maxi Tee', state: false },
-				{ name: 'Monarch Suit', state: false },
-				{ name: 'Nudist', state: false },
-				{ name: 'Orange Hoodie', state: false },
-				{ name: 'Police Uniform', state: false },
-				{ name: 'Reaper Cloak', state: false },
-				{ name: 'Space Suit', state: false },
-				{ name: 'Sub Armor', state: false },
-				{ name: 'Red Tee', state: false },
-				{ name: 'Royal Space Suit', state: false },
-				{ name: 'Rugged Robe', state: false },
-				{ name: 'Sheriff Uniform', state: false },
-				{ name: 'Space Fleet Uniform', state: false }
-			]
-		},
-		{
-			filterTitle: 'Face Gear',
-			filterCheckbox: false,
-			filterItems: [
-				{ name: 'None', state: false },
-				{ name: 'Optic Blaster', state: false },
+				{ name: 'Doge Snapback', state: false },
+				{ name: 'Red Snapback', state: false },
 				{ name: 'Shiny Glasses', state: false },
-				{ name: 'Pipe', state: false },
-				{ name: 'Neon Glasses', state: false },
-				{ name: 'Eyepatch', state: false },
-				{ name: '3D Glasses', state: false },
-				{ name: 'Sun Shades', state: false }
+				{ name: 'Winter Hat', state: false },
+				{ name: 'Flaming', state: false },
+				{ name: 'Pink Optic Blaster', state: false },
+				{ name: 'Blue Optic Blaster', state: false },
+				{ name: 'Golden Optic Blaster', state: false },
+				{ name: 'Aqua Optic Blaster', state: false },
+				{ name: 'Bat Mask', state: false },
+				{ name: 'Ordswap Snapback', state: false },
+				{ name: 'Satoshi Snapback', state: false }
 			]
 		},
 		{
-			filterTitle: 'Accessories',
+			filterTitle: 'Specials',
 			filterCheckbox: false,
 			filterItems: [
 				{ name: 'None', state: false },
-				{ name: 'Gold Chain', state: false },
-				{ name: 'Silver Chain', state: false },
-				{ name: 'Monocle', state: false }
-			]
-		},
-		{
-			filterTitle: 'Pets',
-			filterCheckbox: false,
-			filterItems: [
-				{ name: 'None', state: false },
-				{ name: 'Doginal', state: false }
-			]
-		},
-		{
-			filterTitle: 'Wings',
-			filterCheckbox: false,
-			filterItems: [
-				{ name: 'None', state: false },
-				{ name: 'Crystal', state: false },
-				{ name: 'Angelic', state: false },
-				{ name: 'Golden', state: false },
-				{ name: 'Demonic', state: false }
+				{ name: 'Batman Doginal', state: false },
+				{ name: 'Golden Doginal', state: false },
+				{ name: 'Ordswap DoginalPipe', state: false },
+				{ name: 'Hacker Doginal', state: false },
+				{ name: 'Satoshi Doginal', state: false }
 			]
 		}
 	];
@@ -165,15 +115,12 @@
 		inputFilteredNftData = NftJsonDataList;
 	}
 
-	$: typeFilteredNftData = filterNftData(inputFilteredNftData, 0, 'nft_type', filters);
-	$: skinFilteredNftData = filterNftData(typeFilteredNftData, 1, 'skin', filters);
-	$: bgFilteredNftData = filterNftData(skinFilteredNftData, 2, 'background', filters);
-	$: headwearFilteredNftData = filterNftData(bgFilteredNftData, 3, 'headwear', filters);
-	$: clothesFilteredNftData = filterNftData(headwearFilteredNftData, 4, 'clothes', filters);
-	$: faceGearFilteredNftData = filterNftData(clothesFilteredNftData, 5, 'face_gear', filters);
-	$: accessoriesFilteredNftData = filterNftData(faceGearFilteredNftData, 6, 'accessories', filters);
-	$: petFilteredNftData = filterNftData(accessoriesFilteredNftData, 7, 'pets', filters);
-	$: wingsFilteredNftData = filterNftData(petFilteredNftData, 8, 'wings', filters);
+	$: bodyFilteredNftData = filterNftData(inputFilteredNftData, 0, 'body', filters);
+	$: bgFilteredNftData = filterNftData(bodyFilteredNftData, 1, 'background', filters);
+	$: suitFilteredNftData = filterNftData(bgFilteredNftData, 2, 'suit', filters);
+	$: expressionFilteredNftData = filterNftData(suitFilteredNftData, 3, 'expression', filters);
+	$: hwFilteredNftData = filterNftData(expressionFilteredNftData, 4, 'head_wear', filters);
+	$: wingsFilteredNftData = filterNftData(hwFilteredNftData, 5, 'specials', filters);
 
 	function showMobileFilterHandler(state) {
 		showMobileFilter = state;
@@ -330,7 +277,8 @@
 										nftLink={nft.inscription_link}
 										nftId={nft.image_id}
 										nftNumber={nft.inscription_id}
-										path="/nfts/doginals/"
+										path="/nfts/"
+										type="doginals"
 									/>
 								{/each}
 							{/if}
