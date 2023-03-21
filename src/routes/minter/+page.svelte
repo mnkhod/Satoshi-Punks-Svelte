@@ -102,7 +102,7 @@
 						<p class="text-[30px] leading-[38px] text-white">Round 1: Holders and OGs</p>
 						<div class="mt-3">
 							<p class="text-2xl text-[#EAECF0]">
-								When: <span class="ml-3">Mar 24, 16:00 - 17:00 UTC</span>
+								When: <span class="ml-3">TBA</span>
 							</p>
 							<p class="text-2xl text-[#EAECF0]">
 								Price: <span class="ml-3">Free</span>
@@ -132,7 +132,7 @@
 						</p>
 
 						<p class="text-2xl text-[#EAECF0] flex w-full justify-between">
-							Total minted <span>128/500</span>
+							Total minted <span>0</span>
 						</p>
 					</div>
 				</div>
@@ -143,7 +143,7 @@
 						<p class="text-[30px] leading-[38px] text-white">Round 2: Whitelist</p>
 						<div class="mt-3">
 							<p class="text-2xl text-[#EAECF0]">
-								When: <span class="ml-3">Mar 24, 17:00 - 18:00 UTC</span>
+								When: <span class="ml-3">TBA</span>
 							</p>
 							<p class="text-2xl text-[#EAECF0]">
 								Price: <span class="ml-3">0.02 ETH</span>
@@ -158,7 +158,7 @@
 						<p class="text-[30px] leading-[38px] text-white">Round 3: Public</p>
 						<div class="mt-3">
 							<p class="text-2xl text-[#EAECF0]">
-								When: <span class="ml-3">Mar 24, 18:00 - Mar 27, 18:00</span>
+								When: <span class="ml-3">TBA</span>
 							</p>
 							<p class="text-2xl text-[#EAECF0]">
 								Price: <span class="ml-3">0.03 ETH</span>
@@ -204,7 +204,7 @@
 					<p class="text-[30px] leading-[38px] text-white">Round 1: Holders and OGs</p>
 					<div class="mt-3">
 						<p class="text-2xl text-[#EAECF0]">
-							When: <span class="ml-3">Mar 24, 16:00 - 17:00 UTC</span>
+							When: <span class="ml-3">TBA</span>
 						</p>
 						<p class="text-2xl text-[#EAECF0]">
 							Price: <span class="ml-3">Free</span>
@@ -230,11 +230,11 @@
 				</div>
 				<div>
 					<p class="text-2xl text-[#EAECF0] flex w-full justify-between">
-						Transaction summary: <span>0.09 ETH</span>
+						Transaction summary: <span>{mintAmount * currrentRound.price}</span>
 					</p>
 
 					<p class="text-2xl text-[#EAECF0] flex w-full justify-between">
-						Total minted <span>128/500</span>
+						Total minted <span>0</span>
 					</p>
 				</div>
 			</div>
@@ -248,7 +248,7 @@
 						<p class="text-[30px] leading-[38px] text-white">Round 1: Holders and OGs</p>
 						<div class="mt-3">
 							<p class="text-2xl text-[#EAECF0]">
-								When: <span class="ml-3">Mar 24, 16:00 - 17:00 UTC</span>
+								When: <span class="ml-3">TBA</span>
 							</p>
 							<p class="text-2xl text-[#EAECF0]">
 								Price: <span class="ml-3">Free</span>
@@ -263,7 +263,7 @@
 						<p class="text-[30px] leading-[38px] text-white">Round 2: Whitelist</p>
 						<div class="mt-3">
 							<p class="text-2xl text-[#EAECF0]">
-								When: <span class="ml-3">Mar 24, 16:00 - 17:00 UTC</span>
+								When: <span class="ml-3">TBA</span>
 							</p>
 							<p class="text-2xl text-[#EAECF0]">
 								Price: <span class="ml-3">0.03 ETH</span>
@@ -278,7 +278,7 @@
 						<p class="text-[30px] leading-[38px] text-white">Round 3: Public</p>
 						<div class="mt-3">
 							<p class="text-2xl text-[#EAECF0]">
-								When: <span class="ml-3">Mar 24, 18:00 - Mar 27, 18:00</span>
+								When: <span class="ml-3">TBA</span>
 							</p>
 							<p class="text-2xl text-[#EAECF0]">
 								Price: <span class="ml-3">0.03 ETH</span>
