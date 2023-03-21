@@ -171,7 +171,7 @@
 	</div>
 
 	<img
-		src={'/nfts/43.png'}
+		src={'/nfts/punks/43.png'}
 		class="top-0 left-0 z-0 w-full h-auto object-cover md:hidden"
 		alt="coverImage"
 	/>

@@ -72,7 +72,7 @@
 					class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-x-4 gap-y-4 sm:gap-x-8 sm:gap-y-16"
 				>
 					<li class="flex flex-col gap-4">
-						<img src="/nfts/2.png" class="w-full" alt="nftImage" />
+						<img src="/nfts/punks/2.png" class="w-full" alt="nftImage" />
 						<div>
 							<p class="text-4xl leading-[44px] font-normal">Punk #2</p>
 							<p class="text-2xl leading-8 font-normal">Inscription 36806</p>
@@ -80,7 +80,7 @@
 					</li>
 
 					<li class="flex flex-col gap-4">
-						<img src="/nfts/30.png" class="w-full" alt="nftImage" />
+						<img src="/nfts/punks/30.png" class="w-full" alt="nftImage" />
 						<div>
 							<p class="text-4xl leading-[44px] font-normal">Punk #30</p>
 							<p class="text-2xl leading-8 font-normal">Inscription 63940</p>
@@ -88,7 +88,7 @@
 					</li>
 
 					<li class="flex flex-col gap-4">
-						<img src="/nfts/32.png" class="w-full" alt="nftImage" />
+						<img src="/nfts/punks/32.png" class="w-full" alt="nftImage" />
 						<div>
 							<p class="text-4xl leading-[44px] font-normal">Punk #2</p>
 							<p class="text-2xl leading-8 font-normal">Inscription 36806</p>
@@ -96,7 +96,7 @@
 					</li>
 
 					<li class="flex flex-col gap-4">
-						<img src="/nfts/83.png" class="w-full" alt="nftImage" />
+						<img src="/nfts/punks/83.png" class="w-full" alt="nftImage" />
 						<div>
 							<p class="text-4xl leading-[44px] font-normal">Punk #2</p>
 							<p class="text-2xl leading-8 font-normal">Inscription 36806</p>
@@ -104,7 +104,7 @@
 					</li>
 
 					<li class="flex flex-col gap-4">
-						<img src="/nfts/36.png" class="w-full" alt="nftImage" />
+						<img src="/nfts/punks/36.png" class="w-full" alt="nftImage" />
 						<div>
 							<p class="text-4xl leading-[44px] font-normal">Punk #2</p>
 							<p class="text-2xl leading-8 font-normal">Inscription 36806</p>
@@ -112,7 +112,7 @@
 					</li>
 
 					<li class="flex flex-col gap-4">
-						<img src="/nfts/17.png" class="w-full" alt="nftImage" />
+						<img src="/nfts/punks/17.png" class="w-full" alt="nftImage" />
 						<div>
 							<p class="text-4xl leading-[44px] font-normal">Punk #2</p>
 							<p class="text-2xl leading-8 font-normal">Inscription 36806</p>
@@ -120,7 +120,7 @@
 					</li>
 
 					<li class="flex flex-col gap-4">
-						<img src="/nfts/38.png" class="w-full" alt="nftImage" />
+						<img src="/nfts/punks/38.png" class="w-full" alt="nftImage" />
 						<div>
 							<p class="text-4xl leading-[44px] font-normal">Punk #2</p>
 							<p class="text-2xl leading-8 font-normal">Inscription 36806</p>
@@ -128,7 +128,7 @@
 					</li>
 
 					<li class="flex flex-col gap-4">
-						<img src="/nfts/18.png" class="w-full" alt="nftImage" />
+						<img src="/nfts/punks/18.png" class="w-full" alt="nftImage" />
 						<div>
 							<p class="text-4xl leading-[44px] font-normal">Punk #2</p>
 							<p class="text-2xl leading-8 font-normal">Inscription 36806</p>
@@ -157,42 +157,42 @@
 					class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-x-4 gap-y-4 sm:gap-x-8 sm:gap-y-16"
 				>
 					<li class="flex flex-col gap-4">
-						<img src="/nfts/45.png" class="w-full" alt="nftImage" />
+						<img src="/nfts/punks/45.png" class="w-full" alt="nftImage" />
 						<div>
 							<p class="text-4xl leading-[44px] font-normal">Lord Satoshi</p>
 							<p class="text-2xl leading-8 font-normal">Does 99% of the work</p>
 						</div>
 					</li>
 					<li class="flex flex-col gap-4">
-						<img src="/nfts/41.png" class="w-full" alt="nftImage" />
+						<img src="/nfts/punks/41.png" class="w-full" alt="nftImage" />
 						<div>
 							<p class="text-4xl leading-[44px] font-normal">Saina</p>
 							<p class="text-2xl leading-8 font-normal">Only awake cuz of coffee</p>
 						</div>
 					</li>
 					<li class="flex flex-col gap-4">
-						<img src="/nfts/8.png" class="w-full" alt="nftImage" />
+						<img src="/nfts/punks/8.png" class="w-full" alt="nftImage" />
 						<div>
 							<p class="text-4xl leading-[44px] font-normal">Satoshi Punk</p>
 							<p class="text-2xl leading-8 font-normal">Never sells his illiquid bag</p>
 						</div>
 					</li>
 					<li class="flex flex-col gap-4">
-						<img src="/nfts/53.png" class="w-full" alt="nftImage" />
+						<img src="/nfts/punks/53.png" class="w-full" alt="nftImage" />
 						<div>
 							<p class="text-4xl leading-[44px] font-normal">Mnk</p>
 							<p class="text-2xl leading-8 font-normal">Shows up at the end</p>
 						</div>
 					</li>
 					<li class="flex flex-col gap-4">
-						<img src="/nfts/75.png" class="w-full" alt="nftImage" />
+						<img src="/nfts/punks/75.png" class="w-full" alt="nftImage" />
 						<div>
 							<p class="text-4xl leading-[44px] font-normal">Chteka</p>
 							<p class="text-2xl leading-8 font-normal">Online 24/7</p>
 						</div>
 					</li>
 					<li class="flex flex-col gap-4">
-						<img src="/nfts/47.png" class="w-full" alt="nftImage" />
+						<img src="/nfts/punks/47.png" class="w-full" alt="nftImage" />
 						<div>
 							<p class="text-4xl leading-[44px] font-normal">Sieve</p>
 							<p class="text-2xl leading-8 font-normal">Thinks he’s in a sim</p>

@@ -199,8 +199,13 @@
 <main>
 	<Navbar route="gallery" />
 	<img
-		src={'/gallery-bg.png'}
-		class="top-0 left-0 z-0 w-full h-[224px] sm:h-[30vw] object-cover"
+		src={'/banners/doginals_mobile.jpg'}
+		class="top-0 left-0 z-0 w-full h-[224px] sm:hidden object-cover"
+		alt="coverImage"
+	/>
+	<img
+		src={'/banners/doginals_web.jpg'}
+		class="top-0 left-0 z-0 w-full h-[30vw] hidden sm:block object-cover"
 		alt="coverImage"
 	/>
 	<div class="w-full flex justify-center bg-[url('./lib/assets/imgs/bg.png')]">
@@ -325,6 +330,7 @@
 										nftLink={nft.inscription_link}
 										nftId={nft.image_id}
 										nftNumber={nft.inscription_id}
+										path="/nfts/doginals/"
 									/>
 								{/each}
 							{/if}
