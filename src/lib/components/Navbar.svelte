@@ -41,10 +41,10 @@
 				<a href="https://discord.gg/satoshipunks" class="w-11 h-11 flex items-center justify-center"
 					><img src={DiscordImg} class="w-6 h-6" alt="" /></a
 				>
-				<button
+				<!-- <button
 					class="bg-white shadow-[0px_1px_2px_rgba(16,24,40,0.05)] px-3 text-[#344054] text-2xl leading-[44px] tracking-[-0.02em] inline-block"
 					>CONNECT WALLET</button
-				>
+				> -->
 			</div>
 		</div>
 	</div>
@@ -65,10 +65,10 @@
 			</button>
 		</div>
 		<div class="w-full px-4 py-9 text-4xl flex flex-col leading-[44px]">
-			<button
+			<!-- <button
 				class="bg-white shadow-[0px_1px_2px_rgba(16,24,40,0.05)] w-full text-[#344054] text-2xl leading-[44px] tracking-[-0.02em]"
 				>CONNECT WALLET</button
-			>
+			> -->
 			<a
 				href={route == 'home' ? '#Manifesto' : '/#Manifesto'}
 				class="px-2 py-1 border-b-[1px] border-white">Manifesto</a
