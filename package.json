@@ -25,6 +25,7 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"daisyui": "^2.50.1"
+		"daisyui": "^2.50.1",
+		"ethers": "^5.7.2"
 	}
 }

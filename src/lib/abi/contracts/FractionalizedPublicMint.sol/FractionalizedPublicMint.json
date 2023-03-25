@@ -1,0 +1,21 @@
+[
+  "constructor(address)",
+  "event OwnershipTransferred(address indexed,address indexed)",
+  "event Paused(address)",
+  "event Unpaused(address)",
+  "function ethClaim(address) returns (bool)",
+  "function etherBalance() view returns (uint256)",
+  "function mint(uint256) payable returns (bool)",
+  "function mintTokenSupply() view returns (uint256)",
+  "function owner() view returns (address)",
+  "function pause()",
+  "function paused() view returns (bool)",
+  "function rate() view returns (uint256)",
+  "function refundTokens(address) returns (bool)",
+  "function renounceOwnership()",
+  "function token() view returns (address)",
+  "function transferOwnership(address)",
+  "function unpause()",
+  "function updateRate(uint256) returns (bool)",
+  "function userBalance() view returns (uint256)"
+]

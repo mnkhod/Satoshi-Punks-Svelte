@@ -1,0 +1,2602 @@
+[
+  {
+    "image": "https://satoshidoginals.mypinata.cloud/ipfs/Qmcr3GFfkhbTMRu4gJvct8jssPWS7hAJ4gLp3Hag8pNgNr/1.png",
+    "id": 1,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Satoshi Doginals"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Satoshi Doginals "
+      },
+      {
+        "trait_type": "Suit",
+        "value": "Satoshi Doginals"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Satoshi Doginals"
+      },
+      {
+        "trait_type": "Headwear",
+        "value": "Satoshi Doginals"
+      }
+    ],
+  },
+  {
+    "image": "https://satoshidoginals.mypinata.cloud/ipfs/Qmcr3GFfkhbTMRu4gJvct8jssPWS7hAJ4gLp3Hag8pNgNr/2.png",
+    "id": 2,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Aqua"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Zombie "
+      },
+      {
+        "trait_type": "Suit",
+        "value": "Space Suit Blue"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Chill"
+      },
+      {
+        "trait_type": "Headwear",
+        "value": "Winter Hat"
+      }
+    ],
+  },
+  {
+    "image": "https://satoshidoginals.mypinata.cloud/ipfs/Qmcr3GFfkhbTMRu4gJvct8jssPWS7hAJ4gLp3Hag8pNgNr/3.png",
+    "id": 3,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Aqua Space"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Brown "
+      },
+      {
+        "trait_type": "Suit",
+        "value": "Nudist"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Sad"
+      },
+      {
+        "trait_type": "Headwear",
+        "value": "Shiny Glasses"
+      }
+    ],
+  },
+  {
+    "image": "https://satoshidoginals.mypinata.cloud/ipfs/Qmcr3GFfkhbTMRu4gJvct8jssPWS7hAJ4gLp3Hag8pNgNr/4.png",
+    "id": 4,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Aqua Space"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Brown "
+      },
+      {
+        "trait_type": "Suit",
+        "value": "Jacket"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Exited"
+      },
+      {
+        "trait_type": "Headwear",
+        "value": "Baldie"
+      }
+    ],
+  },
+  {
+    "image": "https://satoshidoginals.mypinata.cloud/ipfs/Qmcr3GFfkhbTMRu4gJvct8jssPWS7hAJ4gLp3Hag8pNgNr/5.png",
+    "id": 5,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Golden Doginal"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Golden Doginal "
+      },
+      {
+        "trait_type": "Suit",
+        "value": "Golden Doginal"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Golden Doginal"
+      },
+      {
+        "trait_type": "Headwear",
+        "value": "Golden Doginal"
+      }
+    ],
+  },
+  {
+    "image": "https://satoshidoginals.mypinata.cloud/ipfs/Qmcr3GFfkhbTMRu4gJvct8jssPWS7hAJ4gLp3Hag8pNgNr/6.png",
+    "id": 6,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Aqua Space"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Dark "
+      },
+      {
+        "trait_type": "Suit",
+        "value": "Maxi Tee"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Evil"
+      },
+      {
+        "trait_type": "Headwear",
+        "value": "Red Snapback"
+      }
+    ],
+  },
+  {
+    "image": "https://satoshidoginals.mypinata.cloud/ipfs/Qmcr3GFfkhbTMRu4gJvct8jssPWS7hAJ4gLp3Hag8pNgNr/7.png",
+    "id": 7,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Hacker"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Brown "
+      },
+      {
+        "trait_type": "Suit",
+        "value": "Nudist"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Chill"
+      },
+      {
+        "trait_type": "Headwear",
+        "value": "Red Snapback"
+      }
+    ],
+  },
+  {
+    "image": "https://satoshidoginals.mypinata.cloud/ipfs/Qmcr3GFfkhbTMRu4gJvct8jssPWS7hAJ4gLp3Hag8pNgNr/8.png",
+    "id": 8,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Sandy Beach"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Zombie "
+      },
+      {
+        "trait_type": "Suit",
+        "value": "Founder Hoodie"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Chill"
+      },
+      {
+        "trait_type": "Headwear",
+        "value": "Shiny Glasses"
+      }
+    ],
+  },
+  {
+    "image": "https://satoshidoginals.mypinata.cloud/ipfs/Qmcr3GFfkhbTMRu4gJvct8jssPWS7hAJ4gLp3Hag8pNgNr/9.png",
+    "id": 9,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Pink"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Brown "
+      },
+      {
+        "trait_type": "Suit",
+        "value": "Space Suit Pink"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Evil"
+      },
+      {
+        "trait_type": "Headwear",
+        "value": "Doge Snapback"
+      }
+    ],
+  },
+  {
+    "image": "https://satoshidoginals.mypinata.cloud/ipfs/Qmcr3GFfkhbTMRu4gJvct8jssPWS7hAJ4gLp3Hag8pNgNr/10.png",
+    "id": 10,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Aqua"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Snow "
+      },
+      {
+        "trait_type": "Suit",
+        "value": "Maxi Tee"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Normal"
+      },
+      {
+        "trait_type": "Headwear",
+        "value": "Red Snapback"
+      }
+    ],
+  },
+  {
+    "image": "https://satoshidoginals.mypinata.cloud/ipfs/Qmcr3GFfkhbTMRu4gJvct8jssPWS7hAJ4gLp3Hag8pNgNr/11.png",
+    "id": 11,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Hacker"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Zombie "
+      },
+      {
+        "trait_type": "Suit",
+        "value": "Hacker Hoodie"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Exited"
+      },
+      {
+        "trait_type": "Headwear",
+        "value": "Flaming"
+      }
+    ],
+  },
+  {
+    "image": "https://satoshidoginals.mypinata.cloud/ipfs/Qmcr3GFfkhbTMRu4gJvct8jssPWS7hAJ4gLp3Hag8pNgNr/12.png",
+    "id": 12,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Hacker"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Zombie "
+      },
+      {
+        "trait_type": "Suit",
+        "value": "Fast Food Apron"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Sad"
+      },
+      {
+        "trait_type": "Headwear",
+        "value": "Shiny Glasses"
+      }
+    ],
+  },
+  {
+    "image": "https://satoshidoginals.mypinata.cloud/ipfs/Qmcr3GFfkhbTMRu4gJvct8jssPWS7hAJ4gLp3Hag8pNgNr/13.png",
+    "id": 13,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Pink"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Doge "
+      },
+      {
+        "trait_type": "Suit",
+        "value": "Founder Hoodie"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Normal"
+      },
+      {
+        "trait_type": "Headwear",
+        "value": "Red Snapback"
+      }
+    ],
+  },
+  {
+    "image": "https://satoshidoginals.mypinata.cloud/ipfs/Qmcr3GFfkhbTMRu4gJvct8jssPWS7hAJ4gLp3Hag8pNgNr/14.png",
+    "id": 14,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Hacker"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Snow "
+      },
+      {
+        "trait_type": "Suit",
+        "value": "Black Tee"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Exited"
+      },
+      {
+        "trait_type": "Headwear",
+        "value": "Flaming"
+      }
+    ],
+  },
+  {
+    "image": "https://satoshidoginals.mypinata.cloud/ipfs/Qmcr3GFfkhbTMRu4gJvct8jssPWS7hAJ4gLp3Hag8pNgNr/15.png",
+    "id": 15,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Pitch Black"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Brown "
+      },
+      {
+        "trait_type": "Suit",
+        "value": "Black Tee"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Chill"
+      },
+      {
+        "trait_type": "Headwear",
+        "value": "Red Snapback"
+      }
+    ],
+  },
+  {
+    "image": "https://satoshidoginals.mypinata.cloud/ipfs/Qmcr3GFfkhbTMRu4gJvct8jssPWS7hAJ4gLp3Hag8pNgNr/16.png",
+    "id": 16,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Light Green"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Brown "
+      },
+      {
+        "trait_type": "Suit",
+        "value": "Fast Food Apron"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Normal"
+      },
+      {
+        "trait_type": "Headwear",
+        "value": "Shiny Glasses"
+      }
+    ],
+  },
+  {
+    "image": "https://satoshidoginals.mypinata.cloud/ipfs/Qmcr3GFfkhbTMRu4gJvct8jssPWS7hAJ4gLp3Hag8pNgNr/17.png",
+    "id": 17,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Light Green"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Brown "
+      },
+      {
+        "trait_type": "Suit",
+        "value": "Hacker Hoodie"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Sad"
+      },
+      {
+        "trait_type": "Headwear",
+        "value": "Blue Optic Blaster"
+      }
+    ],
+  },
+  {
+    "image": "https://satoshidoginals.mypinata.cloud/ipfs/Qmcr3GFfkhbTMRu4gJvct8jssPWS7hAJ4gLp3Hag8pNgNr/18.png",
+    "id": 18,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Pink Space"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Snow "
+      },
+      {
+        "trait_type": "Suit",
+        "value": "Space Suit Blue"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Evil"
+      },
+      {
+        "trait_type": "Headwear",
+        "value": "Doge Snapback"
+      }
+    ],
+  },
+  {
+    "image": "https://satoshidoginals.mypinata.cloud/ipfs/Qmcr3GFfkhbTMRu4gJvct8jssPWS7hAJ4gLp3Hag8pNgNr/19.png",
+    "id": 19,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Hacker Doginal"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Hacker Doginal "
+      },
+      {
+        "trait_type": "Suit",
+        "value": "Hacker Doginal"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Hacker Doginal"
+      },
+      {
+        "trait_type": "Headwear",
+        "value": "Hacker Doginal"
+      }
+    ],
+  },
+  {
+    "image": "https://satoshidoginals.mypinata.cloud/ipfs/Qmcr3GFfkhbTMRu4gJvct8jssPWS7hAJ4gLp3Hag8pNgNr/20.png",
+    "id": 20,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Aqua"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Brown "
+      },
+      {
+        "trait_type": "Suit",
+        "value": "Black Tee"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Evil"
+      },
+      {
+        "trait_type": "Headwear",
+        "value": "Shiny Glasses"
+      }
+    ],
+  },
+  {
+    "image": "https://satoshidoginals.mypinata.cloud/ipfs/Qmcr3GFfkhbTMRu4gJvct8jssPWS7hAJ4gLp3Hag8pNgNr/21.png",
+    "id": 21,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Sandy Beach"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Dark "
+      },
+      {
+        "trait_type": "Suit",
+        "value": "Black Tee"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Evil"
+      },
+      {
+        "trait_type": "Headwear",
+        "value": "Baldie"
+      }
+    ],
+  },
+  {
+    "image": "https://satoshidoginals.mypinata.cloud/ipfs/Qmcr3GFfkhbTMRu4gJvct8jssPWS7hAJ4gLp3Hag8pNgNr/22.png",
+    "id": 22,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Pink"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Snow "
+      },
+      {
+        "trait_type": "Suit",
+        "value": "Black Tee"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Chill"
+      },
+      {
+        "trait_type": "Headwear",
+        "value": "Baldie"
+      }
+    ],
+  },
+  {
+    "image": "https://satoshidoginals.mypinata.cloud/ipfs/Qmcr3GFfkhbTMRu4gJvct8jssPWS7hAJ4gLp3Hag8pNgNr/23.png",
+    "id": 23,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Pink Space"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Dark "
+      },
+      {
+        "trait_type": "Suit",
+        "value": "Nudist"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Sad"
+      },
+      {
+        "trait_type": "Headwear",
+        "value": "Golden Optic Blaster"
+      }
+    ],
+  },
+  {
+    "image": "https://satoshidoginals.mypinata.cloud/ipfs/Qmcr3GFfkhbTMRu4gJvct8jssPWS7hAJ4gLp3Hag8pNgNr/24.png",
+    "id": 24,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Pink"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Snow "
+      },
+      {
+        "trait_type": "Suit",
+        "value": "Space Suit Pink"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Sad"
+      },
+      {
+        "trait_type": "Headwear",
+        "value": "Baldie"
+      }
+    ],
+  },
+  {
+    "image": "https://satoshidoginals.mypinata.cloud/ipfs/Qmcr3GFfkhbTMRu4gJvct8jssPWS7hAJ4gLp3Hag8pNgNr/25.png",
+    "id": 25,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Sandy Beach"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Pink "
+      },
+      {
+        "trait_type": "Suit",
+        "value": "Space Suit Blue"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Normal"
+      },
+      {
+        "trait_type": "Headwear",
+        "value": "Baldie"
+      }
+    ],
+  },
+  {
+    "image": "https://satoshidoginals.mypinata.cloud/ipfs/Qmcr3GFfkhbTMRu4gJvct8jssPWS7hAJ4gLp3Hag8pNgNr/26.png",
+    "id": 26,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Aqua"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Snow "
+      },
+      {
+        "trait_type": "Suit",
+        "value": "Fast Food Apron"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Exited"
+      },
+      {
+        "trait_type": "Headwear",
+        "value": "Red Snapback"
+      }
+    ],
+  },
+  {
+    "image": "https://satoshidoginals.mypinata.cloud/ipfs/Qmcr3GFfkhbTMRu4gJvct8jssPWS7hAJ4gLp3Hag8pNgNr/27.png",
+    "id": 27,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Pink"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Snow "
+      },
+      {
+        "trait_type": "Suit",
+        "value": "Space Suit Pink"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Sad"
+      },
+      {
+        "trait_type": "Headwear",
+        "value": "Red Snapback"
+      }
+    ],
+  },
+  {
+    "image": "https://satoshidoginals.mypinata.cloud/ipfs/Qmcr3GFfkhbTMRu4gJvct8jssPWS7hAJ4gLp3Hag8pNgNr/28.png",
+    "id": 28,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Light Green"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Brown "
+      },
+      {
+        "trait_type": "Suit",
+        "value": "Space Suit Blue"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Normal"
+      },
+      {
+        "trait_type": "Headwear",
+        "value": "Flaming"
+      }
+    ],
+  },
+  {
+    "image": "https://satoshidoginals.mypinata.cloud/ipfs/Qmcr3GFfkhbTMRu4gJvct8jssPWS7hAJ4gLp3Hag8pNgNr/29.png",
+    "id": 29,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Aqua Space"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Brown "
+      },
+      {
+        "trait_type": "Suit",
+        "value": "Maxi Tee"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Evil"
+      },
+      {
+        "trait_type": "Headwear",
+        "value": "Doge Snapback"
+      }
+    ],
+  },
+  {
+    "image": "https://satoshidoginals.mypinata.cloud/ipfs/Qmcr3GFfkhbTMRu4gJvct8jssPWS7hAJ4gLp3Hag8pNgNr/30.png",
+    "id": 30,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Sandy Beach"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Dark "
+      },
+      {
+        "trait_type": "Suit",
+        "value": "Space Suit Pink"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Sad"
+      },
+      {
+        "trait_type": "Headwear",
+        "value": "Pink Optic Blaster"
+      }
+    ],
+  },
+  {
+    "image": "https://satoshidoginals.mypinata.cloud/ipfs/Qmcr3GFfkhbTMRu4gJvct8jssPWS7hAJ4gLp3Hag8pNgNr/31.png",
+    "id": 31,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Aqua"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Zombie "
+      },
+      {
+        "trait_type": "Suit",
+        "value": "Space Suit Blue"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Chill"
+      },
+      {
+        "trait_type": "Headwear",
+        "value": "Shiny Glasses"
+      }
+    ],
+  },
+  {
+    "image": "https://satoshidoginals.mypinata.cloud/ipfs/Qmcr3GFfkhbTMRu4gJvct8jssPWS7hAJ4gLp3Hag8pNgNr/32.png",
+    "id": 32,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Aqua Space"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Pink "
+      },
+      {
+        "trait_type": "Suit",
+        "value": "Founder Hoodie"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Exited"
+      },
+      {
+        "trait_type": "Headwear",
+        "value": "Baldie"
+      }
+    ],
+  },
+  {
+    "image": "https://satoshidoginals.mypinata.cloud/ipfs/Qmcr3GFfkhbTMRu4gJvct8jssPWS7hAJ4gLp3Hag8pNgNr/33.png",
+    "id": 33,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Aqua Space"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Doge "
+      },
+      {
+        "trait_type": "Suit",
+        "value": "Maxi Tee"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Sad"
+      },
+      {
+        "trait_type": "Headwear",
+        "value": "Winter Hat"
+      }
+    ],
+  },
+  {
+    "image": "https://satoshidoginals.mypinata.cloud/ipfs/Qmcr3GFfkhbTMRu4gJvct8jssPWS7hAJ4gLp3Hag8pNgNr/34.png",
+    "id": 34,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Hacker"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Brown "
+      },
+      {
+        "trait_type": "Suit",
+        "value": "Space Suit Pink"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Normal"
+      },
+      {
+        "trait_type": "Headwear",
+        "value": "Blue Optic Blaster"
+      }
+    ],
+  },
+  {
+    "image": "https://satoshidoginals.mypinata.cloud/ipfs/Qmcr3GFfkhbTMRu4gJvct8jssPWS7hAJ4gLp3Hag8pNgNr/35.png",
+    "id": 35,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Hacker"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Doge "
+      },
+      {
+        "trait_type": "Suit",
+        "value": "Founder Hoodie"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Sad"
+      },
+      {
+        "trait_type": "Headwear",
+        "value": "Baldie"
+      }
+    ],
+  },
+  {
+    "image": "https://satoshidoginals.mypinata.cloud/ipfs/Qmcr3GFfkhbTMRu4gJvct8jssPWS7hAJ4gLp3Hag8pNgNr/36.png",
+    "id": 36,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Pink"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Brown "
+      },
+      {
+        "trait_type": "Suit",
+        "value": "Nudist"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Chill"
+      },
+      {
+        "trait_type": "Headwear",
+        "value": "Pink Optic Blaster"
+      }
+    ],
+  },
+  {
+    "image": "https://satoshidoginals.mypinata.cloud/ipfs/Qmcr3GFfkhbTMRu4gJvct8jssPWS7hAJ4gLp3Hag8pNgNr/37.png",
+    "id": 37,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Hacker"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Brown "
+      },
+      {
+        "trait_type": "Suit",
+        "value": "Black Tee"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Sad"
+      },
+      {
+        "trait_type": "Headwear",
+        "value": "Winter Hat"
+      }
+    ],
+  },
+  {
+    "image": "https://satoshidoginals.mypinata.cloud/ipfs/Qmcr3GFfkhbTMRu4gJvct8jssPWS7hAJ4gLp3Hag8pNgNr/38.png",
+    "id": 38,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Aqua"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Brown "
+      },
+      {
+        "trait_type": "Suit",
+        "value": "Space Suit Pink"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Exited"
+      },
+      {
+        "trait_type": "Headwear",
+        "value": "Shiny Glasses"
+      }
+    ],
+  },
+  {
+    "image": "https://satoshidoginals.mypinata.cloud/ipfs/Qmcr3GFfkhbTMRu4gJvct8jssPWS7hAJ4gLp3Hag8pNgNr/39.png",
+    "id": 39,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Aqua Space"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Zombie "
+      },
+      {
+        "trait_type": "Suit",
+        "value": "Black Tee"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Sad"
+      },
+      {
+        "trait_type": "Headwear",
+        "value": "Doge Snapback"
+      }
+    ],
+  },
+  {
+    "image": "https://satoshidoginals.mypinata.cloud/ipfs/Qmcr3GFfkhbTMRu4gJvct8jssPWS7hAJ4gLp3Hag8pNgNr/40.png",
+    "id": 40,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Sandy Beach"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Snow "
+      },
+      {
+        "trait_type": "Suit",
+        "value": "Black Tee"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Exited"
+      },
+      {
+        "trait_type": "Headwear",
+        "value": "Doge Snapback"
+      }
+    ],
+  },
+  {
+    "image": "https://satoshidoginals.mypinata.cloud/ipfs/Qmcr3GFfkhbTMRu4gJvct8jssPWS7hAJ4gLp3Hag8pNgNr/41.png",
+    "id": 41,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Aqua Space"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Snow "
+      },
+      {
+        "trait_type": "Suit",
+        "value": "Royal Space Suit"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Normal"
+      },
+      {
+        "trait_type": "Headwear",
+        "value": "Doge Snapback"
+      }
+    ],
+  },
+  {
+    "image": "https://satoshidoginals.mypinata.cloud/ipfs/Qmcr3GFfkhbTMRu4gJvct8jssPWS7hAJ4gLp3Hag8pNgNr/42.png",
+    "id": 42,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Sandy Beach"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Doge "
+      },
+      {
+        "trait_type": "Suit",
+        "value": "Founder Hoodie"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Evil"
+      },
+      {
+        "trait_type": "Headwear",
+        "value": "Winter Hat"
+      }
+    ],
+  },
+  {
+    "image": "https://satoshidoginals.mypinata.cloud/ipfs/Qmcr3GFfkhbTMRu4gJvct8jssPWS7hAJ4gLp3Hag8pNgNr/43.png",
+    "id": 43,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Aqua"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Dark "
+      },
+      {
+        "trait_type": "Suit",
+        "value": "Founder Hoodie"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Normal"
+      },
+      {
+        "trait_type": "Headwear",
+        "value": "Doge Snapback"
+      }
+    ],
+  },
+  {
+    "image": "https://satoshidoginals.mypinata.cloud/ipfs/Qmcr3GFfkhbTMRu4gJvct8jssPWS7hAJ4gLp3Hag8pNgNr/44.png",
+    "id": 44,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Aqua"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Doge "
+      },
+      {
+        "trait_type": "Suit",
+        "value": "Space Suit Blue"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Normal"
+      },
+      {
+        "trait_type": "Headwear",
+        "value": "Baldie"
+      }
+    ],
+  },
+  {
+    "image": "https://satoshidoginals.mypinata.cloud/ipfs/Qmcr3GFfkhbTMRu4gJvct8jssPWS7hAJ4gLp3Hag8pNgNr/45.png",
+    "id": 45,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Batman Doginal"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Batman Doginal "
+      },
+      {
+        "trait_type": "Suit",
+        "value": "Batman Doginal"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Batman Doginal"
+      },
+      {
+        "trait_type": "Headwear",
+        "value": "Batman Doginal"
+      }
+    ],
+  },
+  {
+    "image": "https://satoshidoginals.mypinata.cloud/ipfs/Qmcr3GFfkhbTMRu4gJvct8jssPWS7hAJ4gLp3Hag8pNgNr/46.png",
+    "id": 46,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Pitch Black"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Dark "
+      },
+      {
+        "trait_type": "Suit",
+        "value": "Black Tee"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Normal"
+      },
+      {
+        "trait_type": "Headwear",
+        "value": "Baldie"
+      }
+    ],
+  },
+  {
+    "image": "https://satoshidoginals.mypinata.cloud/ipfs/Qmcr3GFfkhbTMRu4gJvct8jssPWS7hAJ4gLp3Hag8pNgNr/47.png",
+    "id": 47,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Pitch Black"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Doge "
+      },
+      {
+        "trait_type": "Suit",
+        "value": "Jacket"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Evil"
+      },
+      {
+        "trait_type": "Headwear",
+        "value": "Winter Hat"
+      }
+    ],
+  },
+  {
+    "image": "https://satoshidoginals.mypinata.cloud/ipfs/Qmcr3GFfkhbTMRu4gJvct8jssPWS7hAJ4gLp3Hag8pNgNr/48.png",
+    "id": 48,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Pink Space"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Snow "
+      },
+      {
+        "trait_type": "Suit",
+        "value": "Black Tee"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Sad"
+      },
+      {
+        "trait_type": "Headwear",
+        "value": "Shiny Glasses"
+      }
+    ],
+  },
+  {
+    "image": "https://satoshidoginals.mypinata.cloud/ipfs/Qmcr3GFfkhbTMRu4gJvct8jssPWS7hAJ4gLp3Hag8pNgNr/49.png",
+    "id": 49,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Hacker"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Brown "
+      },
+      {
+        "trait_type": "Suit",
+        "value": "Space Suit Pink"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Exited"
+      },
+      {
+        "trait_type": "Headwear",
+        "value": "Red Snapback"
+      }
+    ],
+  },
+  {
+    "image": "https://satoshidoginals.mypinata.cloud/ipfs/Qmcr3GFfkhbTMRu4gJvct8jssPWS7hAJ4gLp3Hag8pNgNr/50.png",
+    "id": 50,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Sandy Beach"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Doge "
+      },
+      {
+        "trait_type": "Suit",
+        "value": "Maxi Tee"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Exited"
+      },
+      {
+        "trait_type": "Headwear",
+        "value": "Shiny Glasses"
+      }
+    ],
+  },
+  {
+    "image": "https://satoshidoginals.mypinata.cloud/ipfs/Qmcr3GFfkhbTMRu4gJvct8jssPWS7hAJ4gLp3Hag8pNgNr/51.png",
+    "id": 51,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Pink"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Doge "
+      },
+      {
+        "trait_type": "Suit",
+        "value": "Hacker Hoodie"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Exited"
+      },
+      {
+        "trait_type": "Headwear",
+        "value": "Golden Optic Blaster"
+      }
+    ],
+  },
+  {
+    "image": "https://satoshidoginals.mypinata.cloud/ipfs/Qmcr3GFfkhbTMRu4gJvct8jssPWS7hAJ4gLp3Hag8pNgNr/52.png",
+    "id": 52,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Pink"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Doge "
+      },
+      {
+        "trait_type": "Suit",
+        "value": "Nudist"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Exited"
+      },
+      {
+        "trait_type": "Headwear",
+        "value": "Red Snapback"
+      }
+    ],
+  },
+  {
+    "image": "https://satoshidoginals.mypinata.cloud/ipfs/Qmcr3GFfkhbTMRu4gJvct8jssPWS7hAJ4gLp3Hag8pNgNr/53.png",
+    "id": 53,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Sandy Beach"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Doge "
+      },
+      {
+        "trait_type": "Suit",
+        "value": "Nudist"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Exited"
+      },
+      {
+        "trait_type": "Headwear",
+        "value": "Shiny Glasses"
+      }
+    ],
+  },
+  {
+    "image": "https://satoshidoginals.mypinata.cloud/ipfs/Qmcr3GFfkhbTMRu4gJvct8jssPWS7hAJ4gLp3Hag8pNgNr/54.png",
+    "id": 54,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Aqua"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Zombie "
+      },
+      {
+        "trait_type": "Suit",
+        "value": "Nudist"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Normal"
+      },
+      {
+        "trait_type": "Headwear",
+        "value": "Doge Snapback"
+      }
+    ],
+  },
+  {
+    "image": "https://satoshidoginals.mypinata.cloud/ipfs/Qmcr3GFfkhbTMRu4gJvct8jssPWS7hAJ4gLp3Hag8pNgNr/55.png",
+    "id": 55,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Hacker"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Fading "
+      },
+      {
+        "trait_type": "Suit",
+        "value": "Founder Hoodie"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Exited"
+      },
+      {
+        "trait_type": "Headwear",
+        "value": "Doge Snapback"
+      }
+    ],
+  },
+  {
+    "image": "https://satoshidoginals.mypinata.cloud/ipfs/Qmcr3GFfkhbTMRu4gJvct8jssPWS7hAJ4gLp3Hag8pNgNr/56.png",
+    "id": 56,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Pitch Black"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Doge "
+      },
+      {
+        "trait_type": "Suit",
+        "value": "Founder Hoodie"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Evil"
+      },
+      {
+        "trait_type": "Headwear",
+        "value": "Aqua Optic Blaster"
+      }
+    ],
+  },
+  {
+    "image": "https://satoshidoginals.mypinata.cloud/ipfs/Qmcr3GFfkhbTMRu4gJvct8jssPWS7hAJ4gLp3Hag8pNgNr/57.png",
+    "id": 57,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Light Green"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Fading "
+      },
+      {
+        "trait_type": "Suit",
+        "value": "Nudist"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Chill"
+      },
+      {
+        "trait_type": "Headwear",
+        "value": "Red Snapback"
+      }
+    ],
+  },
+  {
+    "image": "https://satoshidoginals.mypinata.cloud/ipfs/Qmcr3GFfkhbTMRu4gJvct8jssPWS7hAJ4gLp3Hag8pNgNr/58.png",
+    "id": 58,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Light Green"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Doge "
+      },
+      {
+        "trait_type": "Suit",
+        "value": "Space Suit Blue"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Chill"
+      },
+      {
+        "trait_type": "Headwear",
+        "value": "Red Snapback"
+      }
+    ],
+  },
+  {
+    "image": "https://satoshidoginals.mypinata.cloud/ipfs/Qmcr3GFfkhbTMRu4gJvct8jssPWS7hAJ4gLp3Hag8pNgNr/59.png",
+    "id": 59,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Light Green"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Doge "
+      },
+      {
+        "trait_type": "Suit",
+        "value": "Space Suit Pink"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Evil"
+      },
+      {
+        "trait_type": "Headwear",
+        "value": "Shiny Glasses"
+      }
+    ],
+  },
+  {
+    "image": "https://satoshidoginals.mypinata.cloud/ipfs/Qmcr3GFfkhbTMRu4gJvct8jssPWS7hAJ4gLp3Hag8pNgNr/60.png",
+    "id": 60,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Aqua"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Doge "
+      },
+      {
+        "trait_type": "Suit",
+        "value": "Space Suit Blue"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Exited"
+      },
+      {
+        "trait_type": "Headwear",
+        "value": "Baldie"
+      }
+    ],
+  },
+  {
+    "image": "https://satoshidoginals.mypinata.cloud/ipfs/Qmcr3GFfkhbTMRu4gJvct8jssPWS7hAJ4gLp3Hag8pNgNr/61.png",
+    "id": 61,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Pink Space"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Pink "
+      },
+      {
+        "trait_type": "Suit",
+        "value": "Space Suit Blue"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Chill"
+      },
+      {
+        "trait_type": "Headwear",
+        "value": "Shiny Glasses"
+      }
+    ],
+  },
+  {
+    "image": "https://satoshidoginals.mypinata.cloud/ipfs/Qmcr3GFfkhbTMRu4gJvct8jssPWS7hAJ4gLp3Hag8pNgNr/62.png",
+    "id": 62,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Pink"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Doge "
+      },
+      {
+        "trait_type": "Suit",
+        "value": "Fast Food Apron"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Evil"
+      },
+      {
+        "trait_type": "Headwear",
+        "value": "Doge Snapback"
+      }
+    ],
+  },
+  {
+    "image": "https://satoshidoginals.mypinata.cloud/ipfs/Qmcr3GFfkhbTMRu4gJvct8jssPWS7hAJ4gLp3Hag8pNgNr/63.png",
+    "id": 63,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Aqua"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Snow "
+      },
+      {
+        "trait_type": "Suit",
+        "value": "Nudist"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Chill"
+      },
+      {
+        "trait_type": "Headwear",
+        "value": "Pink Optic Blaster"
+      }
+    ],
+  },
+  {
+    "image": "https://satoshidoginals.mypinata.cloud/ipfs/Qmcr3GFfkhbTMRu4gJvct8jssPWS7hAJ4gLp3Hag8pNgNr/64.png",
+    "id": 64,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Pitch Black"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Doge "
+      },
+      {
+        "trait_type": "Suit",
+        "value": "Jacket"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Evil"
+      },
+      {
+        "trait_type": "Headwear",
+        "value": "Red Snapback"
+      }
+    ],
+  },
+  {
+    "image": "https://satoshidoginals.mypinata.cloud/ipfs/Qmcr3GFfkhbTMRu4gJvct8jssPWS7hAJ4gLp3Hag8pNgNr/65.png",
+    "id": 65,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Sandy Beach"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Brown "
+      },
+      {
+        "trait_type": "Suit",
+        "value": "Space Suit Pink"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Evil"
+      },
+      {
+        "trait_type": "Headwear",
+        "value": "Red Snapback"
+      }
+    ],
+  },
+  {
+    "image": "https://satoshidoginals.mypinata.cloud/ipfs/Qmcr3GFfkhbTMRu4gJvct8jssPWS7hAJ4gLp3Hag8pNgNr/66.png",
+    "id": 66,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Hacker"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Brown "
+      },
+      {
+        "trait_type": "Suit",
+        "value": "Black Tee"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Sad"
+      },
+      {
+        "trait_type": "Headwear",
+        "value": "Doge Snapback"
+      }
+    ],
+  },
+  {
+    "image": "https://satoshidoginals.mypinata.cloud/ipfs/Qmcr3GFfkhbTMRu4gJvct8jssPWS7hAJ4gLp3Hag8pNgNr/67.png",
+    "id": 67,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Pitch Black"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Doge "
+      },
+      {
+        "trait_type": "Suit",
+        "value": "Maxi Tee"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Exited"
+      },
+      {
+        "trait_type": "Headwear",
+        "value": "Pink Optic Blaster"
+      }
+    ],
+  },
+  {
+    "image": "https://satoshidoginals.mypinata.cloud/ipfs/Qmcr3GFfkhbTMRu4gJvct8jssPWS7hAJ4gLp3Hag8pNgNr/68.png",
+    "id": 68,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Pitch Black"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Zombie "
+      },
+      {
+        "trait_type": "Suit",
+        "value": "Space Suit Pink"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Evil"
+      },
+      {
+        "trait_type": "Headwear",
+        "value": "Red Snapback"
+      }
+    ],
+  },
+  {
+    "image": "https://satoshidoginals.mypinata.cloud/ipfs/Qmcr3GFfkhbTMRu4gJvct8jssPWS7hAJ4gLp3Hag8pNgNr/69.png",
+    "id": 69,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Pitch Black"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Brown "
+      },
+      {
+        "trait_type": "Suit",
+        "value": "Maxi Tee"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Normal"
+      },
+      {
+        "trait_type": "Headwear",
+        "value": "Baldie"
+      }
+    ],
+  },
+  {
+    "image": "https://satoshidoginals.mypinata.cloud/ipfs/Qmcr3GFfkhbTMRu4gJvct8jssPWS7hAJ4gLp3Hag8pNgNr/70.png",
+    "id": 70,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Aqua"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Brown "
+      },
+      {
+        "trait_type": "Suit",
+        "value": "Maxi Tee"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Chill"
+      },
+      {
+        "trait_type": "Headwear",
+        "value": "Shiny Glasses"
+      }
+    ],
+  },
+  {
+    "image": "https://satoshidoginals.mypinata.cloud/ipfs/Qmcr3GFfkhbTMRu4gJvct8jssPWS7hAJ4gLp3Hag8pNgNr/71.png",
+    "id": 71,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Pitch Black"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Brown "
+      },
+      {
+        "trait_type": "Suit",
+        "value": "Space Suit Blue"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Normal"
+      },
+      {
+        "trait_type": "Headwear",
+        "value": "Baldie"
+      }
+    ],
+  },
+  {
+    "image": "https://satoshidoginals.mypinata.cloud/ipfs/Qmcr3GFfkhbTMRu4gJvct8jssPWS7hAJ4gLp3Hag8pNgNr/72.png",
+    "id": 72,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Pink"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Snow "
+      },
+      {
+        "trait_type": "Suit",
+        "value": "Maxi Tee"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Normal"
+      },
+      {
+        "trait_type": "Headwear",
+        "value": "Red Snapback"
+      }
+    ],
+  },
+  {
+    "image": "https://satoshidoginals.mypinata.cloud/ipfs/Qmcr3GFfkhbTMRu4gJvct8jssPWS7hAJ4gLp3Hag8pNgNr/73.png",
+    "id": 73,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Pitch Black"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Zombie "
+      },
+      {
+        "trait_type": "Suit",
+        "value": "Fast Food Apron"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Normal"
+      },
+      {
+        "trait_type": "Headwear",
+        "value": "Baldie"
+      }
+    ],
+  },
+  {
+    "image": "https://satoshidoginals.mypinata.cloud/ipfs/Qmcr3GFfkhbTMRu4gJvct8jssPWS7hAJ4gLp3Hag8pNgNr/74.png",
+    "id": 74,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Light Green"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Brown "
+      },
+      {
+        "trait_type": "Suit",
+        "value": "Space Suit Pink"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Evil"
+      },
+      {
+        "trait_type": "Headwear",
+        "value": "Winter Hat"
+      }
+    ],
+  },
+  {
+    "image": "https://satoshidoginals.mypinata.cloud/ipfs/Qmcr3GFfkhbTMRu4gJvct8jssPWS7hAJ4gLp3Hag8pNgNr/75.png",
+    "id": 75,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Hacker"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Fading "
+      },
+      {
+        "trait_type": "Suit",
+        "value": "Jacket"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Sad"
+      },
+      {
+        "trait_type": "Headwear",
+        "value": "Shiny Glasses"
+      }
+    ],
+  },
+  {
+    "image": "https://satoshidoginals.mypinata.cloud/ipfs/Qmcr3GFfkhbTMRu4gJvct8jssPWS7hAJ4gLp3Hag8pNgNr/76.png",
+    "id": 76,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Pitch Black"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Doge "
+      },
+      {
+        "trait_type": "Suit",
+        "value": "Founder Hoodie"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Exited"
+      },
+      {
+        "trait_type": "Headwear",
+        "value": "Doge Snapback"
+      }
+    ],
+  },
+  {
+    "image": "https://satoshidoginals.mypinata.cloud/ipfs/Qmcr3GFfkhbTMRu4gJvct8jssPWS7hAJ4gLp3Hag8pNgNr/77.png",
+    "id": 77,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Pink Space"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Zombie "
+      },
+      {
+        "trait_type": "Suit",
+        "value": "Hacker Hoodie"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Evil"
+      },
+      {
+        "trait_type": "Headwear",
+        "value": "Shiny Glasses"
+      }
+    ],
+  },
+  {
+    "image": "https://satoshidoginals.mypinata.cloud/ipfs/Qmcr3GFfkhbTMRu4gJvct8jssPWS7hAJ4gLp3Hag8pNgNr/78.png",
+    "id": 78,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Pitch Black"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Zombie "
+      },
+      {
+        "trait_type": "Suit",
+        "value": "Fast Food Apron"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Chill"
+      },
+      {
+        "trait_type": "Headwear",
+        "value": "Red Snapback"
+      }
+    ],
+  },
+  {
+    "image": "https://satoshidoginals.mypinata.cloud/ipfs/Qmcr3GFfkhbTMRu4gJvct8jssPWS7hAJ4gLp3Hag8pNgNr/79.png",
+    "id": 79,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Pink"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Snow "
+      },
+      {
+        "trait_type": "Suit",
+        "value": "Space Suit Blue"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Chill"
+      },
+      {
+        "trait_type": "Headwear",
+        "value": "Pink Optic Blaster"
+      }
+    ],
+  },
+  {
+    "image": "https://satoshidoginals.mypinata.cloud/ipfs/Qmcr3GFfkhbTMRu4gJvct8jssPWS7hAJ4gLp3Hag8pNgNr/80.png",
+    "id": 80,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Pitch Black"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Snow "
+      },
+      {
+        "trait_type": "Suit",
+        "value": "Jacket"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Chill"
+      },
+      {
+        "trait_type": "Headwear",
+        "value": "Doge Snapback"
+      }
+    ],
+  },
+  {
+    "image": "https://satoshidoginals.mypinata.cloud/ipfs/Qmcr3GFfkhbTMRu4gJvct8jssPWS7hAJ4gLp3Hag8pNgNr/81.png",
+    "id": 81,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Sandy Beach"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Brown "
+      },
+      {
+        "trait_type": "Suit",
+        "value": "Nudist"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Chill"
+      },
+      {
+        "trait_type": "Headwear",
+        "value": "Baldie"
+      }
+    ],
+  },
+  {
+    "image": "https://satoshidoginals.mypinata.cloud/ipfs/Qmcr3GFfkhbTMRu4gJvct8jssPWS7hAJ4gLp3Hag8pNgNr/82.png",
+    "id": 82,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Aqua"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Snow "
+      },
+      {
+        "trait_type": "Suit",
+        "value": "Jacket"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Chill"
+      },
+      {
+        "trait_type": "Headwear",
+        "value": "Shiny Glasses"
+      }
+    ],
+  },
+  {
+    "image": "https://satoshidoginals.mypinata.cloud/ipfs/Qmcr3GFfkhbTMRu4gJvct8jssPWS7hAJ4gLp3Hag8pNgNr/83.png",
+    "id": 83,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Pitch Black"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Dark "
+      },
+      {
+        "trait_type": "Suit",
+        "value": "Hacker Hoodie"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Evil"
+      },
+      {
+        "trait_type": "Headwear",
+        "value": "Baldie"
+      }
+    ],
+  },
+  {
+    "image": "https://satoshidoginals.mypinata.cloud/ipfs/Qmcr3GFfkhbTMRu4gJvct8jssPWS7hAJ4gLp3Hag8pNgNr/84.png",
+    "id": 84,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Hacker"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Zombie "
+      },
+      {
+        "trait_type": "Suit",
+        "value": "Hacker Hoodie"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Normal"
+      },
+      {
+        "trait_type": "Headwear",
+        "value": "Baldie"
+      }
+    ],
+  },
+  {
+    "image": "https://satoshidoginals.mypinata.cloud/ipfs/Qmcr3GFfkhbTMRu4gJvct8jssPWS7hAJ4gLp3Hag8pNgNr/85.png",
+    "id": 85,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Pink Space"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Zombie "
+      },
+      {
+        "trait_type": "Suit",
+        "value": "Jacket"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Sad"
+      },
+      {
+        "trait_type": "Headwear",
+        "value": "Baldie"
+      }
+    ],
+  },
+  {
+    "image": "https://satoshidoginals.mypinata.cloud/ipfs/Qmcr3GFfkhbTMRu4gJvct8jssPWS7hAJ4gLp3Hag8pNgNr/86.png",
+    "id": 86,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Aqua"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Dark "
+      },
+      {
+        "trait_type": "Suit",
+        "value": "Maxi Tee"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Sad"
+      },
+      {
+        "trait_type": "Headwear",
+        "value": "Baldie"
+      }
+    ],
+  },
+  {
+    "image": "https://satoshidoginals.mypinata.cloud/ipfs/Qmcr3GFfkhbTMRu4gJvct8jssPWS7hAJ4gLp3Hag8pNgNr/87.png",
+    "id": 87,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Light Green"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Brown "
+      },
+      {
+        "trait_type": "Suit",
+        "value": "Nudist"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Exited"
+      },
+      {
+        "trait_type": "Headwear",
+        "value": "Winter Hat"
+      }
+    ],
+  },
+  {
+    "image": "https://satoshidoginals.mypinata.cloud/ipfs/Qmcr3GFfkhbTMRu4gJvct8jssPWS7hAJ4gLp3Hag8pNgNr/88.png",
+    "id": 88,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Pitch Black"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Dark "
+      },
+      {
+        "trait_type": "Suit",
+        "value": "Black Tee"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Sad"
+      },
+      {
+        "trait_type": "Headwear",
+        "value": "Flaming"
+      }
+    ],
+  },
+  {
+    "image": "https://satoshidoginals.mypinata.cloud/ipfs/Qmcr3GFfkhbTMRu4gJvct8jssPWS7hAJ4gLp3Hag8pNgNr/89.png",
+    "id": 89,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Aqua Space"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Doge "
+      },
+      {
+        "trait_type": "Suit",
+        "value": "Nudist"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Chill"
+      },
+      {
+        "trait_type": "Headwear",
+        "value": "Baldie"
+      }
+    ],
+  },
+  {
+    "image": "https://satoshidoginals.mypinata.cloud/ipfs/Qmcr3GFfkhbTMRu4gJvct8jssPWS7hAJ4gLp3Hag8pNgNr/90.png",
+    "id": 90,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Light Green"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Zombie "
+      },
+      {
+        "trait_type": "Suit",
+        "value": "Jacket"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Evil"
+      },
+      {
+        "trait_type": "Headwear",
+        "value": "Baldie"
+      }
+    ],
+  },
+  {
+    "image": "https://satoshidoginals.mypinata.cloud/ipfs/Qmcr3GFfkhbTMRu4gJvct8jssPWS7hAJ4gLp3Hag8pNgNr/91.png",
+    "id": 91,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Pink Space"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Dark "
+      },
+      {
+        "trait_type": "Suit",
+        "value": "Maxi Tee"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Normal"
+      },
+      {
+        "trait_type": "Headwear",
+        "value": "Shiny Glasses"
+      }
+    ],
+  },
+  {
+    "image": "https://satoshidoginals.mypinata.cloud/ipfs/Qmcr3GFfkhbTMRu4gJvct8jssPWS7hAJ4gLp3Hag8pNgNr/92.png",
+    "id": 92,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Aqua"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Doge "
+      },
+      {
+        "trait_type": "Suit",
+        "value": "Jacket"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Exited"
+      },
+      {
+        "trait_type": "Headwear",
+        "value": "Baldie"
+      }
+    ],
+  },
+  {
+    "image": "https://satoshidoginals.mypinata.cloud/ipfs/Qmcr3GFfkhbTMRu4gJvct8jssPWS7hAJ4gLp3Hag8pNgNr/93.png",
+    "id": 93,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Light Green"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Brown "
+      },
+      {
+        "trait_type": "Suit",
+        "value": "Space Suit Pink"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Normal"
+      },
+      {
+        "trait_type": "Headwear",
+        "value": "Red Snapback"
+      }
+    ],
+  },
+  {
+    "image": "https://satoshidoginals.mypinata.cloud/ipfs/Qmcr3GFfkhbTMRu4gJvct8jssPWS7hAJ4gLp3Hag8pNgNr/94.png",
+    "id": 94,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Pitch Black"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Zombie "
+      },
+      {
+        "trait_type": "Suit",
+        "value": "Space Suit Blue"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Normal"
+      },
+      {
+        "trait_type": "Headwear",
+        "value": "Doge Snapback"
+      }
+    ],
+  },
+  {
+    "image": "https://satoshidoginals.mypinata.cloud/ipfs/Qmcr3GFfkhbTMRu4gJvct8jssPWS7hAJ4gLp3Hag8pNgNr/95.png",
+    "id": 95,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Pitch Black"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Brown "
+      },
+      {
+        "trait_type": "Suit",
+        "value": "Nudist"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Chill"
+      },
+      {
+        "trait_type": "Headwear",
+        "value": "Doge Snapback"
+      }
+    ],
+  },
+  {
+    "image": "https://satoshidoginals.mypinata.cloud/ipfs/Qmcr3GFfkhbTMRu4gJvct8jssPWS7hAJ4gLp3Hag8pNgNr/96.png",
+    "id": 96,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Pink Space"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Doge "
+      },
+      {
+        "trait_type": "Suit",
+        "value": "Black Tee"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Evil"
+      },
+      {
+        "trait_type": "Headwear",
+        "value": "Red Snapback"
+      }
+    ],
+  },
+  {
+    "image": "https://satoshidoginals.mypinata.cloud/ipfs/Qmcr3GFfkhbTMRu4gJvct8jssPWS7hAJ4gLp3Hag8pNgNr/97.png",
+    "id": 97,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Pink Space"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Snow "
+      },
+      {
+        "trait_type": "Suit",
+        "value": "Black Tee"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Chill"
+      },
+      {
+        "trait_type": "Headwear",
+        "value": "Red Snapback"
+      }
+    ],
+  },
+  {
+    "image": "https://satoshidoginals.mypinata.cloud/ipfs/Qmcr3GFfkhbTMRu4gJvct8jssPWS7hAJ4gLp3Hag8pNgNr/98.png",
+    "id": 98,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Pink"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Brown "
+      },
+      {
+        "trait_type": "Suit",
+        "value": "Maxi Tee"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Sad"
+      },
+      {
+        "trait_type": "Headwear",
+        "value": "Baldie"
+      }
+    ],
+  },
+  {
+    "image": "https://satoshidoginals.mypinata.cloud/ipfs/Qmcr3GFfkhbTMRu4gJvct8jssPWS7hAJ4gLp3Hag8pNgNr/99.png",
+    "id": 99,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Hacker"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Snow "
+      },
+      {
+        "trait_type": "Suit",
+        "value": "Nudist"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Sad"
+      },
+      {
+        "trait_type": "Headwear",
+        "value": "Shiny Glasses"
+      }
+    ],
+  },
+  {
+    "image": "https://satoshidoginals.mypinata.cloud/ipfs/Qmcr3GFfkhbTMRu4gJvct8jssPWS7hAJ4gLp3Hag8pNgNr/100.png",
+    "id": 100,
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Ordswap Doginal"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Ordswap Doginal"
+      },
+      {
+        "trait_type": "Suit",
+        "value": "Ordswap Doginal"
+      },
+      {
+        "trait_type": "Expression",
+        "value": "Ordswap Doginal"
+      },
+      {
+        "trait_type": "Headwear",
+        "value": "Ordswap Doginal"
+      }
+    ],
+  }
+]
