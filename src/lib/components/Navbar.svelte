@@ -34,7 +34,7 @@
 				<a href={route == 'home' ? '#Manifesto' : '/#Manifesto'} class="px-2">Manifesto</a>
 				<a href="/gallery">Gallery</a>
 				<a href={route == 'home' ? '#Gang' : '/#Gang'}>Team</a>
-				<a href="/minter">Mint</a>
+				<a href="/minter" class="hidden">Mint</a>
 				<a href="https://twitter.com/SatoshiPunksNFT"
 					><img src={TwitterImg} class="w-6 h-6" alt="" /></a
 				>
@@ -64,7 +64,7 @@
 				<img src={CloseImg} alt="" class="w-6 h-6" />
 			</button>
 		</div>
-		<div class="w-full px-4 py-9 text-4xl flex flex-col leading-[44px]">
+		<div class="w-full px-4 py-9 text-4xl text-white flex flex-col leading-[44px]">
 			<!-- <button
 				class="bg-white shadow-[0px_1px_2px_rgba(16,24,40,0.05)] w-full text-[#344054] text-2xl leading-[44px] tracking-[-0.02em]"
 				>CONNECT WALLET</button
@@ -77,7 +77,7 @@
 			<a href={route == 'home' ? '#Gang' : '/#Gang'} class="px-2 py-1 border-b-[1px] border-white"
 				>Team</a
 			>
-			<a href="/minter" class="px-2 py-1 border-b-[1px] border-white">Mint</a>
+			<a href="/minter" class="px-2 hidden py-1 border-b-[1px] border-white">Mint</a>
 			<a
 				href="https://twitter.com/SatoshiPunksNFT"
 				class="px-2 py-1 border-b-[1px] border-white flex justify-between items-center"
