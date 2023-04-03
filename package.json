@@ -26,6 +26,8 @@
 	"type": "module",
 	"dependencies": {
 		"daisyui": "^2.50.1",
-		"ethers": "^5.7.2"
+		"ethers": "^5.7.2",
+		"svelte-french-toast": "^1.0.4-beta.0",
+		"sweetalert2": "^11.7.3"
 	}
 }

@@ -1,8 +1,11 @@
 <script>
 	import MinuseImg from '$lib/assets/imgs/minuse.svg';
 	import PluseImg from '$lib/assets/imgs/pluse.svg';
+	import Loader from '$lib/components/Loader.svelte';
 	import ContractABI from '$lib/abi/contracts/FractionalizedFreeMint.sol/FractionalizedFreeMint.json';
   import { ethers } from "ethers";
+  import { freeMinter as contractAddress } from '$lib/constants/contracts.js';
+  import Swal from 'sweetalert2'
 
   const roundInfo = {
 			price: "Free",
@@ -10,13 +13,14 @@
 			mintStartTime: new Date('Fri, 24 Mar 2023 16:00:00 GMT')
   }
 
-  const contractAddress = "0xb0b022BE9FbE33e725b4fbD71CaF95641e50d42F"
 	let mintAmount = 1;
   let userBalance = 0;
   let provider = null;
   let signer = null;
   let minter = null;
   let minterSigned = null;
+  let mintBtnLoading = false;
+  let isMintedPaused = false;
 
   $: if (metamaskConnection == true) {
     provider = new ethers.providers.Web3Provider(window.ethereum)
@@ -25,6 +29,7 @@
     minter = new ethers.Contract(contractAddress,ContractABI, provider);
     minterSigned = minter.connect(signer);
 
+    setMinterPausedState()
     setUserTokenBalance()
   }
 
@@ -43,21 +48,39 @@
     userBalance = whiteListData[1]
   }
 
+  async function setMinterPausedState(){
+    if(provider == null || minter == null || signer == null || minterSigned == null){ return; }
+
+    let isPaused = await minter.paused()
+    isMintedPaused = isPaused
+  }
+
   async function handleMint(){
+    if(mintBtnLoading) return;
+
+    mintBtnLoading = true
+
     try{
       const tx = await minterSigned.mint()
       await tx.wait();
 
-      alert("Mint Successfull")
+      Swal.fire({ text: "Mint Successful", icon: "success" })
+      mintBtnLoading = false
       setUserTokenBalance()
     }catch(e){
-      if(e.code != null && e.reason != null){
+      mintBtnLoading = false
+
+      if(e.data != null && e.data.message != null){
+        let error = e.data.message.split('revert')[1].trim()
+        Swal.fire({ text: error, icon: "error" })
+      }else if(e.reason != null){
         let error = e.reason.split(':')[1].trim()
-        alert(error)
+        Swal.fire({ text: error, icon: "error" })
       }else{
         console.log(e)
       }
     }
+
   }
 
   async function connectWallet(){
@@ -90,6 +113,7 @@
   }
 
   export let metamaskConnection,updateMetamaskConnection;
+
 </script>
 
 <main>
@@ -121,10 +145,18 @@
         >
       </div>
       {#if metamaskConnection}
-        {#if userBalance < roundInfo.maxMint}
-          <button class="w-full py-3 text-4xl leading-9 bg-white outline-none uppercase text-[#344054]"
+        {#if isMintedPaused}
+          <button class="flex items-center justify-center w-full py-3 text-4xl leading-9 bg-white outline-none uppercase text-[#344054]">Not Started</button>
+        {:else if userBalance < roundInfo.maxMint}
+          <button class="flex items-center justify-center w-full py-3 text-4xl leading-9 bg-white outline-none uppercase text-[#344054]"
             on:click={handleMint}
-          >Mint</button>
+          >
+            {#if mintBtnLoading}
+              <Loader className="w-7 h-auto" />
+            {:else}
+              Mint
+            {/if}
+          </button>
         {:else}
           <button class="w-full py-3 text-4xl leading-9 bg-white outline-none uppercase text-[#344054]">Already Minted</button>
         {/if}
