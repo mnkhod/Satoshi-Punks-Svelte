@@ -98,35 +98,9 @@
 		alt="coverImage"
 	/>
 	<div
-		class="flex md:hidden bg-[url('./lib/assets/imgs/bg.png')] text-white flex-col py-8 px-4 w-full gap-4"
+		class="flex h-screen md:hidden bg-[url('./lib/assets/imgs/bg.png')] text-white flex-col py-8 px-4 w-full gap-4"
 	>
-		<p class="text-5xl leading-[60px] text-white tracking-[-0.02em]">Punk 43: Fractionalized</p>
-		<div class="flex w-full">
-			<button
-				class="flex-1 text-4xl leading-[44px] {currentTab === TabNames.MINT &&
-					'bg-[rgba(78,66,88,0.5)]'}"
-				on:click={() => setCurrentTab(TabNames.MINT)}>{TabNames.MINT}</button
-			>
-			<button
-				class="flex-1 text-4xl leading-[44px]  {currentTab === TabNames.ROUNDS &&
-					'bg-[rgba(78,66,88,0.5)]'}"
-				on:click={() => setCurrentTab(TabNames.ROUNDS)}>{TabNames.ROUNDS}</button
-			>
-			<button
-				class="flex-1 text-4xl leading-[44px]  {currentTab === TabNames.DETAILS &&
-					'bg-[rgba(78,66,88,0.5)]'}"
-				on:click={() => setCurrentTab(TabNames.DETAILS)}>{TabNames.DETAILS}</button
-			>
-		</div>
-		{#if currentTab === TabNames.MINT}
-      <FreeMinterSection metamaskConnection={metamaskConnection} updateMetamaskConnection={updateMetamaskConnection} />
-		{/if}
-		{#if currentTab === TabNames.ROUNDS}
-      <WhitelistMinterSection metamaskConnection={metamaskConnection} updateMetamaskConnection={updateMetamaskConnection} />
-		{/if}
-		{#if currentTab === TabNames.DETAILS}
-      <PublicMinterSection metamaskConnection={metamaskConnection} updateMetamaskConnection={updateMetamaskConnection} />
-		{/if}
+    <h1 class="text-center">Mobile Version is not supported</h1>
 	</div>
 
 	<Footer />
