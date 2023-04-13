@@ -5,10 +5,12 @@
 	import ContractABI from '$lib/abi/contracts/FractionalizedPublicMint.sol/FractionalizedPublicMint.json';
   import { ethers } from "ethers";
   import { publicMinter as contractAddress } from '$lib/constants/contracts.js';
+  import { connectWallet } from '$lib/helper.js';
   import Swal from 'sweetalert2'
 
   const roundInfo = {
 			price: 0.03,
+			maxMint: 10,
 			mintStartTime: new Date('Fri, 24 Mar 2023 16:00:00 GMT')
   }
 
@@ -33,7 +35,7 @@
   }
 
 	const onIncreaseBtnClicked = () => {
-    mintAmount++;
+    if (mintAmount < roundInfo.maxMint) mintAmount++;
 	};
 
 	const onDecreaseBtnClicked = () => {
@@ -85,35 +87,6 @@
 
   }
 
-  async function connectWallet(){
-    if (typeof window.ethereum !== 'undefined') {
-      try{
-        await ethereum.request({ method: 'eth_requestAccounts' });
-        await ethereum.request({
-          method: 'wallet_addEthereumChain',
-          params: [
-            {
-              chainId: '0x' + (43113).toString(16),
-              chainName: 'Avalanche Fuji Testnet',
-              nativeCurrency: {
-                name: "Avalanche",
-                symbol: 'AVAX',
-                decimals: 18,
-              },
-              rpcUrls: ['https://rpc.ankr.com/avalanche_fuji'],
-              blockExplorerUrls: ['https://testnet.snowtrace.io/'],
-            },
-          ],
-        });
-        updateMetamaskConnection(true)
-      }catch(e){
-        console.log(e)
-      }
-    }else{
-      alert("Metamask Wallet Not Connected")
-    }
-  }
-  
   function parse18(amount){
     return ethers.utils.parseUnits(amount.toString(),18)
   }
@@ -143,6 +116,7 @@
       </div>
     </div>
     <div class="flex flex-col gap-3">
+      <p class="text-2xl text-[#EAECF0]">Max mint: {roundInfo.maxMint}</p>
       <div
         class="flex w-full justify-between items-center p-3 border-[1px] border-[rgba(255,255,255,0.15)] bg-[rgba(255,255,255,0.1)]"
         >
@@ -170,7 +144,9 @@
       {/if}
     {:else}
       <button class="w-full py-3 text-4xl leading-9 bg-white outline-none uppercase text-[#344054]"
-        on:click={connectWallet}
+          on:click={() => {
+            connectWallet(updateMetamaskConnection)
+          }}
       >Connect Metamask</button>
     {/if}
     </div>

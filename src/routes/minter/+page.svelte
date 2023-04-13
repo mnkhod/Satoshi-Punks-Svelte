@@ -2,6 +2,8 @@
   import { onMount } from 'svelte';
 	import Navbar from '$lib/components/Navbar.svelte';
 	import Footer from '$lib/components/Footer.svelte';
+  import { chainCode } from '$lib/constants/chain.js';
+  import { connectWallet } from '$lib/helper.js';
 
 	import FreeMinterSection from '$lib/components/FreeMinterSection.svelte';
 	import WhitelistMinterSection from '$lib/components/WhitelistMinterSection.svelte';
@@ -29,13 +31,17 @@
   let metamaskConnection = false;
 
   function updateMetamaskConnection(state){
-    metamaskConnection = true;
+    metamaskConnection = state;
   }
 
   onMount(async () => {
     if (typeof window.ethereum !== 'undefined'){
       if(window.ethereum.selectedAddress != null){
-        metamaskConnection = true;
+        if(window.ethereum.chainId !== chainCode){
+          connectWallet(updateMetamaskConnection)
+        }else{
+          metamaskConnection = true
+        }
       }
     }
   })

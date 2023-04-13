@@ -5,6 +5,7 @@
 	import ContractABI from '$lib/abi/contracts/FractionalizedWhiteListMint.sol/FractionalizedWhiteListMint.json';
   import { ethers } from "ethers";
   import { whiteMinter as contractAddress } from '$lib/constants/contracts.js';
+  import { connectWallet } from '$lib/helper.js';
   import Swal from 'sweetalert2'
 
   const roundInfo = {
@@ -86,35 +87,6 @@
 
   }
 
-  async function connectWallet(){
-    if (typeof window.ethereum !== 'undefined') {
-      try{
-        await ethereum.request({ method: 'eth_requestAccounts' });
-        await ethereum.request({
-          method: 'wallet_addEthereumChain',
-          params: [
-            {
-              chainId: '0x' + (43113).toString(16),
-              chainName: 'Avalanche Fuji Testnet',
-              nativeCurrency: {
-                name: "Avalanche",
-                symbol: 'AVAX',
-                decimals: 18,
-              },
-              rpcUrls: ['https://rpc.ankr.com/avalanche_fuji'],
-              blockExplorerUrls: ['https://testnet.snowtrace.io/'],
-            },
-          ],
-        });
-        updateMetamaskConnection(true)
-      }catch(e){
-        console.log(e)
-      }
-    }else{
-      alert("Metamask Wallet Not Connected")
-    }
-  }
-  
   function parse18(amount){
     return ethers.utils.parseUnits(amount.toString(),18)
   }
@@ -170,7 +142,9 @@
       {/if}
     {:else}
       <button class="w-full py-3 text-4xl leading-9 bg-white outline-none uppercase text-[#344054]"
-        on:click={connectWallet}
+        on:click={() => {
+          connectWallet(updateMetamaskConnection)
+          }}
       >Connect Metamask</button>
     {/if}
     <div>
