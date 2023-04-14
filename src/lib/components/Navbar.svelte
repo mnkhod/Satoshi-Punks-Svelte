@@ -34,7 +34,7 @@
 				<a href={route == 'home' ? '#Manifesto' : '/#Manifesto'} class="px-2">Manifesto</a>
 				<a href="/gallery">Gallery</a>
 				<a href={route == 'home' ? '#Gang' : '/#Gang'}>Team</a>
-				<a href="/minter" class="hidden">Mint</a>
+				<a href="/minter" class="">Mint</a>
 				<a href="https://twitter.com/SatoshiPunksNFT"
 					><img src={TwitterImg} class="w-6 h-6" alt="" /></a
 				>
@@ -77,7 +77,7 @@
 			<a href={route == 'home' ? '#Gang' : '/#Gang'} class="px-2 py-1 border-b-[1px] border-white"
 				>Team</a
 			>
-			<a href="/minter" class="px-2 hidden py-1 border-b-[1px] border-white">Mint</a>
+			<a href="/minter" class="px-2 py-1 border-b-[1px] border-white">Mint</a>
 			<a
 				href="https://twitter.com/SatoshiPunksNFT"
 				class="px-2 py-1 border-b-[1px] border-white flex justify-between items-center"

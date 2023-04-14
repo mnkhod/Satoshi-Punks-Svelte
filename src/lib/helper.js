@@ -23,41 +23,57 @@ async function connectWallet(updateMetamask){
 }
 
 async function connectToMainNet(){
-  await ethereum.request({
-    method: 'wallet_addEthereumChain',
-    params: [
-      {
-        chainId: '0x' + (1).toString(16),
-        chainName: 'Ethereum',
-        nativeCurrency: {
-          name: "Ethereum",
-          symbol: 'ETH',
-          decimals: 18,
+  try {
+    await ethereum.request({
+      method: 'wallet_switchEthereumChain',
+      params: [{ chainId: '0x' + (1).toString(16) }],
+    });
+  } catch(e){
+    await ethereum.request({
+      method: 'wallet_addEthereumChain',
+      params: [
+        {
+          chainId: '0x' + (1).toString(16),
+          chainName: 'Ethereum',
+          nativeCurrency: {
+            name: "Ethereum",
+            symbol: 'ETH',
+            decimals: 18,
+          },
+          rpcUrls: ['https://mainnet.infura.io/v3/'],
+          blockExplorerUrls: ['https://etherscan.io'],
         },
-        rpcUrls: ['https://mainnet.infura.io/v3/'],
-        blockExplorerUrls: ['https://etherscan.io'],
-      },
-    ],
-  });
+      ],
+    });
+
+  }
 }
 
 async function connectToFuji(){
-  await ethereum.request({
-    method: 'wallet_addEthereumChain',
-    params: [
-      {
-        chainId: '0x' + (43113).toString(16),
-        chainName: 'Avalanche Fuji Testnet',
-        nativeCurrency: {
-          name: "Avalanche",
-          symbol: 'AVAX',
-          decimals: 18,
+  try {
+    await ethereum.request({
+      method: 'wallet_switchEthereumChain',
+      params: [{ chainId: '0x' + (43113).toString(16) }],
+    });
+  } catch(e){
+    await ethereum.request({
+      method: 'wallet_addEthereumChain',
+      params: [
+        {
+          chainId: '0x' + (43113).toString(16),
+          chainName: 'Avalanche Fuji Testnet',
+          nativeCurrency: {
+            name: "Avalanche",
+            symbol: 'AVAX',
+            decimals: 18,
+          },
+          rpcUrls: ['https://rpc.ankr.com/avalanche_fuji'],
+          blockExplorerUrls: ['https://testnet.snowtrace.io/'],
         },
-        rpcUrls: ['https://rpc.ankr.com/avalanche_fuji'],
-        blockExplorerUrls: ['https://testnet.snowtrace.io/'],
-      },
-    ],
-  });
+      ],
+    });
+
+  }
 }
 
 async function connectToGanache(){
