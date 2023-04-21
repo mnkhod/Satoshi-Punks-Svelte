@@ -86,6 +86,7 @@
 			</div>
 			<div class="flex flex-col gap-4 max-w-[343px] min-w-[278px] w-full">
         <FreeMinterSection metamaskConnection={metamaskConnection} updateMetamaskConnection={updateMetamaskConnection} />
+        <PublicMinterSection metamaskConnection={metamaskConnection} updateMetamaskConnection={updateMetamaskConnection} />
 			</div>
 		</div>
 	</div>

@@ -9,7 +9,7 @@
   import Swal from 'sweetalert2'
 
   const roundInfo = {
-			price: 0.03,
+			price: 0.02,
 			maxMint: 10,
 			mintStartTime: new Date('Fri, 24 Mar 2023 16:00:00 GMT')
   }
@@ -105,13 +105,13 @@
     class="bg-[rgba(78,66,88,0.5)] p-4 flex flex-col gap-8 border-[rgba(255,255,255,0.15)] border-[1px]"
     >
     <div>
-      <p class="text-[30px] leading-[38px] text-white">Round 3: Public</p>
+      <p class="text-[30px] leading-[38px] text-white">Round 2: Public</p>
       <div class="mt-3">
         <p class="text-2xl text-[#EAECF0]">
           When: <span class="ml-3">TBA</span>
         </p>
         <p class="text-2xl text-[#EAECF0]">
-          Price: <span class="ml-3">0.03 ETH</span>
+          Price: <span class="ml-3">0.02 ETH</span>
         </p>
       </div>
     </div>
