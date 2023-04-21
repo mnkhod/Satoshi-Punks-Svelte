@@ -119,7 +119,7 @@
       </div>
       {#if metamaskConnection}
         {#if isMintedPaused}
-          <button class="flex items-center justify-center w-full py-3 text-4xl leading-9 bg-white outline-none uppercase text-[#344054]">Not Started</button>
+          <button class="flex items-center justify-center w-full py-3 text-4xl leading-9 bg-white outline-none uppercase text-[#344054]">Finished</button>
         {:else if userBalance < roundInfo.maxMint}
           <button class="flex items-center justify-center w-full py-3 text-4xl leading-9 bg-white outline-none uppercase text-[#344054]"
             on:click={handleMint}
