@@ -1,9 +1,9 @@
 <script>
-  import { onMount } from 'svelte';
+	import { onMount } from 'svelte';
 	import Navbar from '$lib/components/Navbar.svelte';
 	import Footer from '$lib/components/Footer.svelte';
-  import { chainCode } from '$lib/constants/chain.js';
-  import { connectWallet } from '$lib/helper.js';
+	import { chainCode } from '$lib/constants/chain.js';
+	import { connectWallet, connectOkxWallet } from '$lib/helper.js';
 
 	import FreeMinterSection from '$lib/components/FreeMinterSection.svelte';
 	import WhitelistMinterSection from '$lib/components/WhitelistMinterSection.svelte';
@@ -28,23 +28,39 @@
 		currentTab = tabName;
 	};
 
-  let metamaskConnection = false;
+	let metamaskConnection = false;
 
-  function updateMetamaskConnection(state){
-    metamaskConnection = state;
-  }
+	function updateMetamaskConnection(state) {
+		metamaskConnection = state;
+	}
 
-  onMount(async () => {
-    if (typeof window.ethereum !== 'undefined'){
-      if(window.ethereum.selectedAddress != null){
-        if(window.ethereum.chainId !== chainCode){
-          connectWallet(updateMetamaskConnection)
-        }else{
-          metamaskConnection = true
-        }
-      }
-    }
-  })
+	onMount(async () => {
+		if (typeof window.ethereum !== 'undefined') {
+			if (window.ethereum.selectedAddress != null) {
+				if (window.ethereum.chainId !== chainCode) {
+					connectWallet(updateMetamaskConnection);
+				} else {
+					metamaskConnection = true;
+				}
+			}
+		}
+	});
+
+	let okxWalletConnection = false;
+
+	function updateOkxWalletConnection(state) {
+		okxWalletConnection = state;
+	}
+
+	onMount(async () => {
+		if (typeof window.okxwallet !== 'undefined') {
+			if (window.okxwallet.bitcoin.selectedAddress != null) {
+				connectOkxWallet(updateOkxWalletConnection);
+			} else {
+				okxWalletConnection = true;
+			}
+		}
+	});
 </script>
 
 <main>
@@ -85,8 +101,18 @@
 				</p>
 			</div>
 			<div class="flex flex-col gap-4 max-w-[343px] min-w-[278px] w-full">
-        <FreeMinterSection metamaskConnection={metamaskConnection} updateMetamaskConnection={updateMetamaskConnection} />
-        <PublicMinterSection metamaskConnection={metamaskConnection} updateMetamaskConnection={updateMetamaskConnection} />
+				<FreeMinterSection
+					{metamaskConnection}
+					{okxWalletConnection}
+					{updateMetamaskConnection}
+					{updateOkxWalletConnection}
+				/>
+				<PublicMinterSection
+					{metamaskConnection}
+					{okxWalletConnection}
+					{updateOkxWalletConnection}
+					{updateMetamaskConnection}
+				/>
 			</div>
 		</div>
 	</div>
@@ -99,7 +125,7 @@
 	<div
 		class="flex h-screen md:hidden bg-[url('./lib/assets/imgs/bg.png')] text-white flex-col py-8 px-4 w-full gap-4"
 	>
-    <h1 class="text-center">Mobile Version is not supported</h1>
+		<h1 class="text-center">Mobile Version is not supported</h1>
 	</div>
 
 	<Footer />
