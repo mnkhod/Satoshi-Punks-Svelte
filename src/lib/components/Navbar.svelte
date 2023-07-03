@@ -31,6 +31,7 @@
 			<div
 				class="sm:gap-4 md:gap-8 items-center sm:text-2xl md:text-[32px] leading-[44px] font-normal tracking-[-0.02px] text-white hidden sm:flex"
 			>
+				<a href="https://raffle.satoshipunks.art/">Raffle</a>
 				<a href={route == 'home' ? '#Manifesto' : '/#Manifesto'} class="px-2">Manifesto</a>
 				<a href="/gallery">Gallery</a>
 				<a href={route == 'home' ? '#Gang' : '/#Gang'}>Team</a>
@@ -69,6 +70,7 @@
 				class="bg-white shadow-[0px_1px_2px_rgba(16,24,40,0.05)] w-full text-[#344054] text-2xl leading-[44px] tracking-[-0.02em]"
 				>CONNECT WALLET</button
 			> -->
+			<a href="https://raffle.satoshipunks.art/" class="px-2 py-1 border-b-[1px] border-white">Raffle</a>
 			<a
 				href={route == 'home' ? '#Manifesto' : '/#Manifesto'}
 				class="px-2 py-1 border-b-[1px] border-white">Manifesto</a
