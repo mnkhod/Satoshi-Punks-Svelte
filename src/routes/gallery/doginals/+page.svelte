@@ -278,7 +278,7 @@
 										nftId={nft.image_id}
 										nftNumber={nft.inscription_id}
 										path="/nfts/"
-										type="doginals"
+										type="webpDoginals"
 									/>
 								{/each}
 							{/if}

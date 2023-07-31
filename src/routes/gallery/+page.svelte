@@ -331,7 +331,7 @@
 										nftId={nft.image_id}
 										nftNumber={nft.inscription_id}
 										path="/nfts/"
-										type="punks"
+										type="webpPunks"
 									/>
 								{/each}
 							{/if}
