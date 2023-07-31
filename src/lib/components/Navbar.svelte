@@ -52,7 +52,7 @@
 	<div
 		class="fixed {navbarVisible === true
 			? 'w-full'
-			: 'w-0'} overflow-hidden right-0 min-h-screen bg-[url('./lib/assets/imgs/bg.png')] z-50 transition-all duration-500"
+			: 'w-0'} overflow-hidden right-0 min-h-screen bg-[url('./lib/assets/imgs/webpImgs/bg.webp')] z-50 transition-all duration-500"
 	>
 		<div class="w-full flex justify-between items-center px-4 py-3">
 			<a href="/" class="flex-none">

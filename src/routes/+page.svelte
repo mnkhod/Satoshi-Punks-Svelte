@@ -1,25 +1,25 @@
 <script>
-	import CoverImage from '$lib/assets/imgs/cover.png';
-	import FeatureHappyIcon from '$lib/assets/imgs/featureHappyIcon.png';
-	import FeatureTimeIcon from '$lib/assets/imgs/featureTimeIcon.png';
-	import FeatureDiamondIcon from '$lib/assets/imgs/featureDiamondIcon.png';
-	import FeatureNft from '$lib/assets/imgs/featureNft.gif';
+	import CoverImage from '$lib/assets/imgs/webpImgs/cover.webp';
+	import FeatureHappyIcon from '$lib/assets/imgs/webpImgs/featureHappyIcon.webp';
+	import FeatureTimeIcon from '$lib/assets/imgs/webpImgs/featureTimeIcon.webp';
+	import FeatureDiamondIcon from '$lib/assets/imgs/webpImgs/featureDiamondIcon.webp';
+	import FeatureNft from '$lib/assets/imgs/webpImgs/featureNft.gif';
 
-	import Nft1 from '$lib/assets/imgs/nft1.png';
-	import Nft2 from '$lib/assets/imgs/nft2.png';
-	import Nft3 from '$lib/assets/imgs/nft3.png';
-	import Nft4 from '$lib/assets/imgs/nft4.png';
-	import Nft5 from '$lib/assets/imgs/nft5.png';
-	import Nft6 from '$lib/assets/imgs/nft6.png';
-	import Nft7 from '$lib/assets/imgs/nft7.png';
-	import Nft8 from '$lib/assets/imgs/nft8.png';
+	import Nft1 from '$lib/assets/imgs/webpImgs/nft1.webp';
+	import Nft2 from '$lib/assets/imgs/webpImgs/nft2.webp';
+	import Nft3 from '$lib/assets/imgs/webpImgs/nft3.webp';
+	import Nft4 from '$lib/assets/imgs/webpImgs/nft4.webp';
+	import Nft5 from '$lib/assets/imgs/webpImgs/nft5.webp';
+	import Nft6 from '$lib/assets/imgs/webpImgs/nft6.webp';
+	import Nft7 from '$lib/assets/imgs/webpImgs/nft7.webp';
+	import Nft8 from '$lib/assets/imgs/webpImgs/nft8.webp';
 
-	import LightingIcon from '$lib/assets/imgs/featureLightingIcon.png';
-	import SpeedIcon from '$lib/assets/imgs/featureSpeedIcon.png';
-	import SnowIcon from '$lib/assets/imgs/featureSnowIcon.png';
-	import CheckIcon from '$lib/assets/imgs/checkIcon.png';
+	import LightingIcon from '$lib/assets/imgs/webpImgs/featureLightingIcon.webp';
+	import SpeedIcon from '$lib/assets/imgs/webpImgs/featureSpeedIcon.webp';
+	import SnowIcon from '$lib/assets/imgs/webpImgs/featureSnowIcon.webp';
+	import CheckIcon from '$lib/assets/imgs/webpImgs/checkIcon.webp';
 
-	import BackgroundImage from '$lib/assets/imgs/bg.png';
+	import BackgroundImage from '$lib/assets/imgs/webpImgs/bg.webp';
 
 	import Navbar from '$lib/components/Navbar.svelte';
 	import Footer from '$lib/components/Footer.svelte';
@@ -40,7 +40,7 @@
 		</div>
 	</div>
 
-	<div class="w-full flex justify-center relative bg-[url('./lib/assets/imgs/bg.png')]">
+	<div class="w-full flex justify-center relative bg-[url('./lib/assets/imgs/webpImgs/bg.webp')]">
 		<div class="punk-container" id="Manifesto">
 			<div class="punk-inner-container">
 				<h1 class="text-5xl sm:text-6xl leading-[60px] sm:leading-[72px] font-normal">Manifesto</h1>
@@ -58,7 +58,7 @@
 		</div>
 	</div>
 
-	<div class="w-full flex justify-center relative bg-[url('./lib/assets/imgs/bg.png')]">
+	<div class="w-full flex justify-center relative bg-[url('./lib/assets/imgs/webpImgs/bg.webp')]">
 		<div class="punk-container" id="Gallery">
 			<div class="punk-inner-container">
 				<div class="flex flex-col md:flex-row gap-5 md:gap-0 justify-between">
@@ -140,7 +140,7 @@
 		</div>
 	</div>
 
-	<div class="w-full flex justify-center relative bg-[url('./lib/assets/imgs/bg.png')]">
+	<div class="w-full flex justify-center relative bg-[url('./lib/assets/imgs/webpImgs/bg.webp')]">
 		<div class="punk-container" id="Gang">
 			<div class="punk-inner-container">
 				<div class="flex flex-col gap-4">

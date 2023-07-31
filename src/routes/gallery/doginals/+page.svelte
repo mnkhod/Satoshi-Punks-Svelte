@@ -2,9 +2,9 @@
 	import Navbar from '$lib/components/Navbar.svelte';
 	import Footer from '$lib/components/Footer.svelte';
 	import GalleryNftCard from '$lib/components/GalleryNftCard.svelte';
-	import MintCover from '$lib/assets/imgs/mintCover.png';
-	import BackgroundImage from '$lib/assets/imgs/bg.png';
-	import MintProfile from '$lib/assets/imgs/mintProfile.png';
+	import MintCover from '$lib/assets/imgs/webpImgs/mintCover.webp';
+	import BackgroundImage from '$lib/assets/imgs/webpImgs/bg.webp';
+	import MintProfile from '$lib/assets/imgs/webpImgs/mintProfile.webp';
 	import NftJsonDataList from '$lib/constants/doginals.json';
 
 	let filterInput = '';
@@ -146,16 +146,16 @@
 <main>
 	<Navbar route="gallery" />
 	<img
-		src={'/banners/doginals_mobile.jpg'}
+		src={'/banners/webpImgs/doginals_mobile.webp'}
 		class="top-0 left-0 z-0 w-full h-[224px] sm:hidden object-cover"
 		alt="coverImage"
 	/>
 	<img
-		src={'/banners/doginals_web.jpg'}
+		src={'/banners/webpImgs/doginals_web.webp'}
 		class="top-0 left-0 z-0 w-full h-[30vw] hidden sm:block object-cover"
 		alt="coverImage"
 	/>
-	<div class="w-full flex justify-center bg-[url('./lib/assets/imgs/bg.png')]">
+	<div class="w-full flex justify-center bg-[url('./lib/assets/imgs/webpImgs/bg.webp')]">
 		<div class="punk-container">
 			<div class="flex gap-16">
 				<!--
@@ -294,7 +294,7 @@
 			>
 				<button
 					on:click={() => showMobileFilterHandler(true)}
-					class="z-20 py-3 w-[208px] border-[1px] border-white text-white bg-[url('/bg.png')] rounded-full text-4xl leading-[44px]"
+					class="z-20 py-3 w-[208px] border-[1px] border-white text-white bg-[url('/bg.webp')] rounded-full text-4xl leading-[44px]"
 					>Filter</button
 				>
 			</div>
@@ -302,7 +302,7 @@
 
 		{#if showMobileFilter == true}
 			<div
-				class="w-full bg-[url('./lib/assets/imgs/bg.png')] bg-repeat absolute min-h-[100vh] top-0 left-0 bg-white z-30"
+				class="w-full bg-[url('./lib/assets/imgs/webpImgs/bg.webp')] bg-repeat absolute min-h-[100vh] top-0 left-0 bg-white z-30"
 			>
 				<div class="p-6 text-white">
 					<div class="flex justify-between items-center">

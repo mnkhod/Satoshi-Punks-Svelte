@@ -1,7 +1,7 @@
 <script>
 	import Navbar from '$lib/components/Navbar.svelte';
 	import Footer from '$lib/components/Footer.svelte';
-	import BackgroundImage from '$lib/assets/imgs/bg.png';
+	import BackgroundImage from '$lib/assets/imgs/webpImgs/bg.webp';
 
 	// 17
 </script>

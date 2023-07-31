@@ -1,8 +1,8 @@
 <script>
 	import MetamaskImg from '$lib/assets/imgs/metamask.svg';
-	import OkxImg from '$lib/assets/imgs/okx.png';
-	import BitcoinImg from '$lib/assets/imgs/bitcoin.png';
-	import EthereumImg from '$lib/assets/imgs/ethereum.png';
+	import OkxImg from '$lib/assets/imgs/webpImgs/okx.webp';
+	import BitcoinImg from '$lib/assets/imgs/webpImgs/bitcoin.webp';
+	import EthereumImg from '$lib/assets/imgs/webpImgs/ethereum.webp';
 
 	import CloseImg from '$lib/assets/imgs/close.svg';
 
@@ -15,7 +15,7 @@
 
 <div class="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-50">
 	<div
-		class="bg-[url('./lib/assets/imgs/bg.png')] p-8 rounded-2xl shadow-lg border-white border-opacity-50 border w-[600px] h-[600px]"
+		class="bg-[url('./lib/assets/imgs/webpImgs/bg.webp')] p-8 rounded-2xl shadow-lg border-white border-opacity-50 border w-[600px] h-[600px]"
 	>
 		<!-- Content of your module component goes here -->
 		<div

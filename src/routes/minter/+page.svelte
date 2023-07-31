@@ -70,7 +70,7 @@
 		class="top-0 left-0 z-0 w-full h-auto object-cover hidden md:block"
 		alt="coverImage"
 	/>
-	<div class="hidden md:flex w-full justify-center bg-[url('./lib/assets/imgs/bg.png')] text-white">
+	<div class="hidden md:flex w-full justify-center bg-[url('./lib/assets/imgs/webpImgs/bg.webp')] text-white">
 		<div class="w-full max-w-[1440px] flex gap-8 lg:gap-16 px-[56px] lg:px-[112px] py-12 lg:py-24">
 			<div class="flex flex-col gap-6">
 				<div class="flex gap-6 items-center">
@@ -123,7 +123,7 @@
 		alt="coverImage"
 	/>
 	<div
-		class="flex h-screen md:hidden bg-[url('./lib/assets/imgs/bg.png')] text-white flex-col py-8 px-4 w-full gap-4"
+		class="flex h-screen md:hidden bg-[url('./lib/assets/imgs/webpImgs/bg.webp')] text-white flex-col py-8 px-4 w-full gap-4"
 	>
 		<h1 class="text-center">Mobile Version is not supported</h1>
 	</div>

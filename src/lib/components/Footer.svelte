@@ -1,11 +1,11 @@
 <script>
-	import LogoWhite from '$lib/assets/imgs/logoWhite.png';
+	import LogoWhite from '$lib/assets/imgs/webpImgs/logoWhite.webp';
 	import TwitterImg from '../assets/imgs/twitter.svg';
 	import DiscordImg from '../assets/imgs/discord.svg';
 </script>
 
 <main>
-	<div class="w-full flex justify-center relative bg-[url('./lib/assets/imgs/bg.png')]">
+	<div class="w-full flex justify-center relative bg-[url('./lib/assets/imgs/webpImgs/bg.webp')]">
 		<div
 			class="max-w-[1440px] w-full flex flex-col sm:flex-row justify-between sm:items-center gap-4 sm:gap-0 px-4 py-12 sm:px-10 lg:px-[112px] sm:py-12"
 		>
