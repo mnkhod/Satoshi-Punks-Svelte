@@ -14,7 +14,7 @@
 				<a href="https://twitter.com/SatoshiPunksNFT">
 					<img src={TwitterImg} class="w-6 h-6" alt="" />
 				</a>
-				<a href="https://discord.gg/satoshipunks">
+				<a href="https://discord.gg/satoshipunksnft">
 					<img src={DiscordImg} class="w-6 h-6" alt="" /></a
 				>
 			</div>

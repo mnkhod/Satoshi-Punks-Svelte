@@ -39,7 +39,7 @@
 				<a href="https://twitter.com/SatoshiPunksNFT"
 					><img src={TwitterImg} class="w-6 h-6" alt="" /></a
 				>
-				<a href="https://discord.gg/satoshipunks" class="w-11 h-11 flex items-center justify-center"
+				<a href="https://discord.gg/satoshipunksnft" class="w-11 h-11 flex items-center justify-center"
 					><img src={DiscordImg} class="w-6 h-6" alt="" /></a
 				>
 				<!-- <button
@@ -86,7 +86,7 @@
 				>Twitter <img src={TwitterImg} class="w-6 h-6" alt="" /></a
 			>
 			<a
-				href="https://discord.gg/satoshipunks"
+				href="https://discord.gg/satoshipunksnft"
 				class="px-2 py-1 border-b-[1px] border-white flex justify-between items-center"
 				>Discord <img src={DiscordImg} class="w-6 h-6" alt="" /></a
 			>
