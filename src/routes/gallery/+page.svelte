@@ -257,7 +257,7 @@
 										bind:checked={filterItem.filterCheckbox}
 										class="min-h-[44px] absolute"
 									/>
-									<label class="w-full p-0 flex items-center justify-between">
+									<label for={filterItem.id} class="w-full p-0 flex items-center justify-between">
 										<p class="text-4xl leading-[44px]">{filterItem.filterTitle}</p>
 										{#if filterItem.filterCheckbox}
 											<svg
@@ -362,6 +362,7 @@
 						<h1 class="text-5xl leading-[60px]">Filter</h1>
 						<svg
 							on:click={() => showMobileFilterHandler(false)}
+							on:keydown={(e) => e.key === 'Enter' && showMobileFilterHandler(false)}
 							class="w-auto h-8"
 							xmlns="http://www.w3.org/2000/svg"
 							viewBox="0 0 24 24"
@@ -379,7 +380,7 @@
 									bind:checked={filterItem.filterCheckbox}
 									class="min-h-[44px] absolute"
 								/>
-								<label class="w-full p-0 flex items-center justify-between">
+								<label for={filterItem.id} class="w-full p-0 flex items-center justify-between">
 									<p class="text-4xl leading-[44px]">{filterItem.filterTitle}</p>
 									{#if filterItem.filterCheckbox}
 										<svg

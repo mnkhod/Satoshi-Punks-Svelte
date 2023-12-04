@@ -3,7 +3,6 @@
 	import FeatureHappyIcon from '$lib/assets/imgs/webpImgs/featureHappyIcon.webp';
 	import FeatureTimeIcon from '$lib/assets/imgs/webpImgs/featureTimeIcon.webp';
 	import FeatureDiamondIcon from '$lib/assets/imgs/webpImgs/featureDiamondIcon.webp';
-	import FeatureNft from '$lib/assets/imgs/webpImgs/featureNft.gif';
 
 	import Nft1 from '$lib/assets/imgs/webpImgs/nft1.webp';
 	import Nft2 from '$lib/assets/imgs/webpImgs/nft2.webp';
