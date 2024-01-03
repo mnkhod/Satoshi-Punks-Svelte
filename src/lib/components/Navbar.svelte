@@ -35,7 +35,6 @@
 				<a href={route == 'home' ? '#Manifesto' : '/#Manifesto'} class="px-2">Manifesto</a>
 				<a href="/gallery">Gallery</a>
 				<a href={route == 'home' ? '#Gang' : '/#Gang'}>Team</a>
-				<a href="/minter" class="">Mint</a>
 				<a href="https://twitter.com/SatoshiPunksNFT"
 					><img src={TwitterImg} class="w-6 h-6" alt="" /></a
 				>
